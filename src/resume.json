@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "theme": "mocha-responsive"
+  },
+  "basics": {
+    "name": "Eugene Blokhin",
+    "label": "Senior Software Engineer",
+    "picture": "https://sun9-5.userapi.com/NL21UP-8aNlB0raexEqFAtYjSKc8N2gJRI7Y6g/hvrj7hfJycg.jpg",
+    "email": "eugene.blokhin@gmail.com",
+    "phone": "+31 6 490 450 49",
+    "website": "http://eugene-blokhin.com",
+    "summary": "I am a software engineer who has the gift and sometimes curse of seeing connections in places where other people cannot see them. I am passionate and inspired by the engineering beauty of all the principles that make the information technologies world the way we know it today. From the electrical circuits, semiconductors, and logic gates to the architectures of high-load information systems. By applying these principles, from the lowest to the highest level, we manage to cope with the tremendous complexity of solving modern business problems.\n\nI am a T-shaped professional with deep experience in building distributed web services in .NET and broad knowledge in other technology-related areas.",
+    "location": {
+      "city": "Amsterdam",
+      "countryCode": "NL"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "eugene-blokhin",
+        "url": "https://github.com/eugene-blokhin"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "eblokhin",
+        "url": "https://www.linkedin.com/in/eblokhin/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Effectory",
+      "position": "Senior Software Developer",
+      "website": "http://effectory.com",
+      "startDate": "2019-10-01",
+      "highlights": [
+        "Tech stack: C#/.NET, Azure CosmosDB",
+        "Made impact analysis and came up with an architecture for our new subdomain",
+        "Designed and implemented a backup solution for our event-driven system"
+      ]
+    },
+    {
+      "company": "Chama Technologies",
+      "position": "Software Developer",
+      "website": "http://chamatheapp.com",
+      "startDate": "2017-05-01",
+      "endDate": "2019-09-15",
+      "highlights": [
+        "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
+        "Set up CI/CD pipeline with TeamCity and Octopus Deploy. It made the deployment simpler, more reliable, and less error-prone. It also allowed for urgent rollbacks",
+        "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked 20x faster than the default Microsoft implementation",
+        "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
+        "Implemented a system to calculate and generate invoices for partners",
+        "Built integration for Oracle NetSuite CRM/ERP system",
+        "Modernized our integration RESTful API testing suite to make more future-proof"
+      ]
+    },
+    {
+      "company": "Albelli",
+      "position": "Software Engineer",
+      "website": "http://albelli.nl",
+      "startDate": "2014-12-01",
+      "endDate": "2017-04-30",
+      "highlights": [
+        "Tech stack: C#/.NET, ASP.NET, MS SQL Server, RabbitMQ",
+        "Modernized a windows service to deliver more than 3.5 terabytes of user's photos daily from the cloud to our print factory. It allowed decommissioning lots of obsolete services and improved maintainability",
+        "Implemented a set of SQL static analysis tools to help us keep our database schema under control",
+        "Gathered requirements and analyzed workflows in one of the production cells. Then, implemented a monitoring system to help distributing workforce more evenly to achieve maximum throughput"
+      ]
+    },
+    {
+      "company": "VIAcode",
+      "position": "Software Developer",
+      "website": "http://viacode.com",
+      "startDate": "2012-11-01",
+      "endDate": "2014-11-13",
+      "highlights": [
+        "Tech stack: C#/.NET, ASP.NET WebApi, MS SQL Server, SoapUI",
+        "Took the lead in performance testing and optimizations for our new RESTful service",
+        "Got Microsoft certificates: Advanced Windows Store App Development using C#, Essentials of Developing Windows Store Apps using C#, Programming in C#, Developing ASP.NET MVC 4 Web Applications, Developing Windows Azure and Web Services, Programming in HTML5 with JavaScript and CSS3"
+      ]
+    },
+    {
+      "company": "Studio Mobile",
+      "position": "Junior Software Developer",
+      "website": "http://studiomobile.ru",
+      "startDate": "2011-09-01",
+      "endDate": "2012-10-31",
+      "highlights": [
+        "Tech stack: C#/.NET, Unity3D, DirectDraw",
+        "Shared my work experience on a stage of a game dev conference in St. Petersburg, Russia"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "area": "Software Development / Information Systems",
+      "studyType": "Master",
+      "startDate": "2009-09-01",
+      "endDate": "2014-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "General",
+      "keywords": [
+        "Eye for good yet simple architecture", 
+        "OOP", 
+        "SOLID",
+        "DDD",
+        "Design Patterns",
+        "TDD",
+        "API Design"
+      ]
+    },
+    {
+      "name": "Distributed systems",
+      "keywords" : [
+        "Event-driven systems",
+        "RabbitMQ",
+        "Azure Service Bus",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords" : [
+        "C# / .NET",
+        "JS / TypeScript / Node",
+        "Go",
+        "C",
+        "F#"
+      ]
+    },
+    {
+      "name": "Other",
+      "keywords" : [
+        "HTML / CSS",
+        "CI / CD",
+        "Docker",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Going Low-level",
+      "keywords": ["Raspberry Pi", "Arduino", "Electronics"]
+    },
+    {
+      "name": "Nature",
+      "keywords": ["Cycling", "Mountains", "Forests"]
+    },
+    {
+      "name": "Psychology"
+    }
+  ]
+}

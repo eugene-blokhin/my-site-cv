@@ -1,0 +1,15 @@
+{
+  "name": "eugene-blokhin-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "eugene-blokhin",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "export": "resume export -t mocha-responsive-web --resume=./src/resume.json dist/index.html",
+    "build": "npm run export && cp -R ./public/* ./dist"
+  },
+  "dependencies": {
+    "jsonresume-theme-mocha-responsive": "^1.0.0"
+  }
+}

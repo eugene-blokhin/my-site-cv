@@ -1,0 +1,39 @@
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.node > circle,
+.node.onezerozero > circle{
+  stroke: #FF5701;
+  stroke-width: 2.5px;
+}
+
+.node.sevenfive > circle {
+  stroke: #ff5601c2;
+  stroke-width: 2px;
+}
+
+.node.fivezero > circle {
+  stroke: #ff56018a;
+  stroke-width: 1.5px;
+}
+
+.node.twofive > circle {
+  stroke: #ff560146;
+  stroke-width: 1px;
+}
+
+circle {
+  fill: #393e46;
+}
+
+text {
+  fill: #eee;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  pointer-events: none;
+  text-transform: uppercase;
+}

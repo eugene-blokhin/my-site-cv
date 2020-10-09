@@ -1,0 +1,42 @@
+source,target,value
+General,Eye for good yet simple architecture,80
+General,OOP,80
+General,SOLID,90
+General,Design Patterns,80
+General,DDD,70
+General,TDD,70
+General,API Design,70
+Distributed systems,Event-driven systems,70
+Event-driven systems,RabbitMQ,50
+Event-driven systems,Azure Service Bus,80
+Event-driven systems,NServiceBus, 60
+Distributed systems,Microservices,70
+Databases,MS SQL,80
+Databases,MySQL,40
+Databases,CosmosDB,60,
+Databases,MongoDB,30
+Cloud,Firebase,80
+Firebase,Realtime Database,80
+Firebase,Hosting,80
+Firebase,Authentication,80
+Cloud,Azure,60
+Azure,CosmosDb,60
+Azure,Storage,90
+Azure,App Services,90
+Azure,Functions,80
+Azure,Service Bus,80
+Languages,C#,100
+C#,.net Core,100
+Languages,F#,60
+Languages,PowerShell,70
+Languages,JS / TypeScript / Node,70
+Languages,Go,40
+Languages,C,60
+Languages,PHP,30
+Other,Linux,60
+Other,CI / CD,50
+Other,Docker,30
+Other,Git,90
+Front End,HTML / CSS,80
+Front End,VueJS,60
+Front End,React,60
