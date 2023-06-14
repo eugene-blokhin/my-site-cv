@@ -5,13 +5,13 @@
   "basics": {
     "name": "Eugene Blokhin",
     "label": "Senior Software Engineer",
-    "picture": "https://sun9-5.userapi.com/NL21UP-8aNlB0raexEqFAtYjSKc8N2gJRI7Y6g/hvrj7hfJycg.jpg",
+    "picture": "images/profile3.jpg",
     "email": "eugene.blokhin@gmail.com",
     "phone": "+31 6 490 450 49",
     "website": "http://eugene-blokhin.com",
     "summary": "I am a software engineer who has the gift and sometimes curse of seeing connections in places where other people cannot see them. I am passionate and inspired by the engineering beauty of all the principles that make the information technologies world the way we know it today. From the electrical circuits, semiconductors, and logic gates to the architectures of high-load information systems. By applying these principles, from the lowest to the highest level, we manage to cope with the tremendous complexity of solving modern business problems.\n\nI am a T-shaped professional with deep experience in building distributed web services in .NET and broad knowledge in other technology-related areas.",
     "location": {
-      "city": "Amsterdam",
+      "city": "Amsterdam / Remote",
       "countryCode": "NL"
     },
     "profiles": [
@@ -29,12 +29,38 @@
   },
   "work": [
     {
+      "company": "Firely",
+      "position": "Freelance software developer",
+      "website": "https://fire.ly/",
+      "startDate": "2021-06-01",
+      "highlights": [
+        "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops",
+        "I am a member of the Firely Server team",
+        "I was a tech lead and an architect during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server",
+        "Responsibilities: technical backlog refinement, designing architecture, coding, performing code review for my colleagues, tech support of our customers"
+      ]
+    },
+    {
+      "company": "Designhubz",
+      "position": "Freelance software developer",
+      "website": "https://designhubz.com/",
+      "startDate": "2020-06-01",
+      "endDate": "2021-04-30",
+      "highlights": [
+        "Tech stack: ASP.NET Core with Blazor, C++, Linux, Raspberry Pi, Arduino",
+        "I was responsible for designing the architecture, building, and maintaining controlling software for a hardware 3d scanner",
+        "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
+        "The low-level part is written in C++ and runs on ATMega328P micro-controllers"
+      ]
+    },
+    {
       "company": "Effectory",
       "position": "Senior Software Developer",
       "website": "http://effectory.com",
       "startDate": "2019-10-01",
+      "endDate": "2021-05-31",
       "highlights": [
-        "Tech stack: C#/.NET, Azure CosmosDB",
+        "Tech stack: C#/.NET, Azure",
         "Made impact analysis and came up with an architecture for our new subdomain",
         "Designed and implemented a backup solution for our event-driven system"
       ]
