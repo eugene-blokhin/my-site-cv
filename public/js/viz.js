@@ -24,7 +24,7 @@ const forceLayoutVisualize = function (csv) {
 
     // set svg area
     var width = 300,
-      height = 600;
+      height = 700;
 
     // use d3 force function
     var force = d3
@@ -37,8 +37,8 @@ const forceLayoutVisualize = function (csv) {
           .id((d, i) => {
             return i;
           })
-          .distance(60)
-          .strength(2.5)
+          .distance(80)
+          .strength(1)
       )
       .force("charge", d3.forceManyBody().strength(-350))
       .on("tick", tick); // runs the animation of the force layout
@@ -91,10 +91,10 @@ const forceLayoutVisualize = function (csv) {
       var svgElem = document.getElementsByClassName("skills-graph")[0];
       var size = svgElem.getBoundingClientRect();
       let f = forceBoundary(0, 0, size.width, size.height);
-      f.border = 10;
-      f.strength = 1;
+      f.border = 1;
+      f.strength = 10;
       force.force("boundary", f);
-      force.force("center", d3.forceCenter(size.width / 2 , size.height / 2))
+      // force.force("center", d3.forceCenter(size.width / 2 , size.height / 2).strength(0.1))
     };
 
     setTimeout(updateForce, 1000);

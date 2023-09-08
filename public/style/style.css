@@ -26,14 +26,20 @@ path.link {
 }
 
 circle {
-  fill: #393e46;
+  /* fill: #393e46; */
+  fill: #ffffff;
 }
 
 text {
-  fill: #eee;
+  /* fill: #eee; */
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12px;
   pointer-events: none;
   text-transform: uppercase;
+}
+
+.skills-graph {
+  border-top: #ff560140 solid 3px;
+  border-bottom: #ff5601 solid 5px;
 }

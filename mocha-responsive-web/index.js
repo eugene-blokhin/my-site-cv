@@ -19,7 +19,7 @@ Swag.registerHelpers(Handlebars);
 
 // global  flags
 let RENDER_ASCYNC = false;
-let RENDER_MARKDOWN = process.env.RENDER_MARKDOWN || false;
+let RENDER_MARKDOWN = process.env.RENDER_MARKDOWN || true;
 let PROCESS_IMAGE =  process.env.PROCESS_IMAGE || false;
 
 const customHelpers = {
@@ -62,6 +62,11 @@ const customHelpers = {
 	mdToHtml: function(string) {
 		// The rendering of Markdown markup is disabled by default
 		return RENDER_MARKDOWN ? marked(string) : string;
+	},
+
+	mdToHtmlInline: function(string) {
+		// The rendering of Markdown markup is disabled by default
+		return RENDER_MARKDOWN ? marked(string).replace("<p>", "").replace("</p>", "") : string;
 	},
 
 	concat: function() {

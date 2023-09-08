@@ -58,12 +58,12 @@
 body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    background: #393e46;
+    /* background: #393e46; */
     /* background: #f8f8f8; */
     /* margin: 50px 0 100px; */
     margin: 0;
     letter-spacing: .3px;
-    color: #39424B;
+    /* color: #39424B; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -281,8 +281,8 @@ ul.two-column li {
 
 /* Layouts */
 .page {
-    background: #222831;
-    color: #eeeeee;
+    /* background: #222831; */
+    /* color: #eeeeee; */
     /* width: 612px; */
     min-height: 792px;
     display: block;
@@ -290,7 +290,7 @@ ul.two-column li {
     border-top: 10px solid #FF5701;
     /* padding: 36px 22px 30px 34px; */
     padding: 50px; /* 50px calc(50px + 10%);*/
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); */
 }
 
 .page:after {
@@ -311,7 +311,7 @@ ul.two-column li {
 .right-column, .profile-pic {
     width: auto;
     overflow: hidden;
-    max-width: 850px;
+    /* max-width: 850px; */
     /* margin-right: 50px; */
     margin: 0 auto;
 }
@@ -329,9 +329,9 @@ ul.two-column li {
     border-top: none;
 }
 
-.title {
+/* .title {
     background-color: #393e46;
-}
+} */
 
 .title > i {
     float: left;
@@ -400,6 +400,13 @@ ul.two-column li {
     }
 }
 
+@media screen {
+    body {
+        max-width: 800px;
+        margin: auto;
+    }
+}
+
 @media print {
     body {
         margin: 0;
@@ -426,8 +433,8 @@ ul.two-column li {
     }
 
     .title {
-        background-color: #393e46;
-        color: white
+        /* background-color: #393e46; */
+        color: black
     }
 
     .keyline {

@@ -6,10 +6,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "export": "resume export -t mocha-responsive-web --resume=./src/resume.json dist/index.html",
-    "build": "npm run export && cp -R ./public/* ./dist"
+    "export": "resume export -t ./mocha-responsive-web --resume=./src/resume.json dist/index.html",
+    "build": "RENDER_MARKDOWN=1 && npm run export && cp -R ./public/* ./dist"
   },
   "dependencies": {
-    "jsonresume-theme-mocha-responsive": "^1.0.0"
+    "jsonresume-theme-mocha-responsive": "^1.0.0",
+    "resume-cli": "^3.0.8"
   }
 }

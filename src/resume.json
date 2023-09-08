@@ -4,14 +4,14 @@
   },
   "basics": {
     "name": "Eugene Blokhin",
-    "label": "Senior Software Engineer",
+    "label": "Senior Full-Stack Software Engineer",
     "picture": "images/profile3.jpg",
     "email": "eugene.blokhin@gmail.com",
     "phone": "+31 6 490 450 49",
     "website": "http://eugene-blokhin.com",
-    "summary": "I am a software engineer who has the gift and sometimes curse of seeing connections in places where other people cannot see them. I am passionate and inspired by the engineering beauty of all the principles that make the information technologies world the way we know it today. From the electrical circuits, semiconductors, and logic gates to the architectures of high-load information systems. By applying these principles, from the lowest to the highest level, we manage to cope with the tremendous complexity of solving modern business problems.\n\nI am a T-shaped professional with deep experience in building distributed web services in .NET and broad knowledge in other technology-related areas.",
+    "summary": "I am a software engineer with **over ten years of successful career**. Having gone through many projects and worked in many teams, I have gained invaluable experience and learned many lessons both as a technical specialist and as a person. As a **T-shaped professional**, I specialize in building **.NET backend systems** but also knowledgeable in many other areas: **React, Node.js, CI/CD pipelines, Linux, Machine Learning, C/C++, and microcontrollers** to name a few. This experience allows me to choose the right tools and approaches for solving a task with limited effort spent. I **never stop learning** from others and try to be helpful by **sharing knowledge** with more junior colleagues.",
     "location": {
-      "city": "Amsterdam / Remote",
+      "city": "Amsterdam / Remote / Open to relocation",
       "countryCode": "NL"
     },
     "profiles": [
@@ -33,11 +33,11 @@
       "position": "Freelance software developer",
       "website": "https://fire.ly/",
       "startDate": "2021-06-01",
+      "summary": "I design the architecture for new features, participate in backlog grooming, perform code-reviews, address support issues from our customers, participate in the recruitment process",
       "highlights": [
-        "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops",
-        "I am a member of the Firely Server team",
-        "I was a tech lead and an architect during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server",
-        "Responsibilities: technical backlog refinement, designing architecture, coding, performing code review for my colleagues, tech support of our customers"
+        "Tech stack: **ASP.NET Core**, **SQL Server**, **MongoDb**, **Docker**, **Azure Dev Ops**",
+        "**Led and designed architecture** during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our clients",
+        "My teammates especially positively recognized my approach to onboarding of new colleagues"
       ]
     },
     {
@@ -46,9 +46,10 @@
       "website": "https://designhubz.com/",
       "startDate": "2020-06-01",
       "endDate": "2021-04-30",
+      "summary": "Led the development (designing the architecture, building, and maintaining) of controlling software for a hardware 3D scanner. The generated 3D models were used in a AR/VR marketplace.",
       "highlights": [
-        "Tech stack: ASP.NET Core with Blazor, C++, Linux, Raspberry Pi, Arduino",
-        "I was responsible for designing the architecture, building, and maintaining controlling software for a hardware 3d scanner",
+        "Tech stack: **ASP.NET Core (Blazor)**, **C++**, **Linux**, **Raspberry Pi**, **Arduino**",
+        "Re-wrote the original solution and improved code maintainability and reliability",
         "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
         "The low-level part is written in C++ and runs on ATMega328P micro-controllers"
       ]
@@ -60,9 +61,8 @@
       "startDate": "2019-10-01",
       "endDate": "2021-05-31",
       "highlights": [
-        "Tech stack: C#/.NET, Azure",
-        "Made impact analysis and came up with an architecture for our new subdomain",
-        "Designed and implemented a backup solution for our event-driven system"
+        "Tech stack: **C#/.NET**, **Azure Storage/Functions/App Services/Service Bus/ARM templates**",
+        "Designed and created a backup solution for our event-sourcing system log stored in Azure Tables (> 2.5 TB of data)"
       ]
     },
     {
@@ -72,11 +72,11 @@
       "startDate": "2017-05-01",
       "endDate": "2019-09-15",
       "highlights": [
-        "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
+        "Tech stack: **C#/.NET**, **NServiceBus**, **Azure Storage/App Services/ServiceFabric/Service Bus**...",
         "Set up CI/CD pipeline with TeamCity and Octopus Deploy. It made the deployment simpler, more reliable, and less error-prone. It also allowed for urgent rollbacks",
-        "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked 20x faster than the default Microsoft implementation",
-        "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
-        "Implemented a system to calculate and generate invoices for partners",
+        "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked **20x faster than the default Microsoft implementation**",
+        "**Pioneered** rewriting our initially synchronous order flow to use **asynchronous messaging architecture**. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of **~200k orders per day**",
+        "Created a system to calculate and generate invoices for our clients",
         "Built integration for Oracle NetSuite CRM/ERP system",
         "Modernized our integration RESTful API testing suite to make more future-proof"
       ]
@@ -87,11 +87,12 @@
       "website": "http://albelli.nl",
       "startDate": "2014-12-01",
       "endDate": "2017-04-30",
+      "summary": "Built and maintained software powering out photo-products production facilities in The Netherlands and India.",
       "highlights": [
-        "Tech stack: C#/.NET, ASP.NET, MS SQL Server, RabbitMQ",
-        "Modernized a windows service to deliver more than 3.5 terabytes of user's photos daily from the cloud to our print factory. It allowed decommissioning lots of obsolete services and improved maintainability",
+        "Tech stack: **C#/.NET**, **ASP.NET**, **SQL Server**, **RabbitMQ**",
+        "Modernized a windows service to deliver more than **3.5 TB of user's photos daily** from the cloud to our print factory. It allowed decommissioning several obsolete services, therefore, improved reliability and maintainability",
         "Implemented a set of SQL static analysis tools to help us keep our database schema under control",
-        "Gathered requirements and analyzed workflows in one of the production cells. Then, implemented a monitoring system to help distributing workforce more evenly to achieve maximum throughput"
+        "Gathered requirements and analyzed workflows in one of the production cells. Then, developed a monitoring system to help distributing workforce more evenly to achieve maximum throughput"
       ]
     },
     {
@@ -101,9 +102,9 @@
       "startDate": "2012-11-01",
       "endDate": "2014-11-13",
       "highlights": [
-        "Tech stack: C#/.NET, ASP.NET WebApi, MS SQL Server, SoapUI",
-        "Took the lead in performance testing and optimizations for our new RESTful service",
-        "Got Microsoft certificates: Advanced Windows Store App Development using C#, Essentials of Developing Windows Store Apps using C#, Programming in C#, Developing ASP.NET MVC 4 Web Applications, Developing Windows Azure and Web Services, Programming in HTML5 with JavaScript and CSS3"
+        "Tech stack: **C#/.NET**, **ASP.NET WebApi**, **SQL Server**, **SoapUI**",
+        "Took the ownership in performance testing and optimizations for our new RESTful service",
+        "Wrote my master's thesis based on this project"
       ]
     },
     {
@@ -113,12 +114,18 @@
       "startDate": "2011-09-01",
       "endDate": "2012-10-31",
       "highlights": [
-        "Tech stack: C#/.NET, Unity3D, DirectDraw",
-        "Shared my work experience on a stage of a game dev conference in St. Petersburg, Russia"
+        "Tech stack: **C#/.NET**, **Unity3D**, **DirectDraw**",
+        "Shared my work experience on a stage in front of approximately 200 people audience of a game dev conference"
       ]
     }
   ],
   "education": [
+    {
+      "institution": "Coursera",
+      "area": "Machine Learning Specialization + Deep Learning Specialization by Andrew Ng",
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-01"
+    },
     {
       "institution": "University Of Information Technologies, Mechanics and Optics (ITMO) - Russia, St. Petersburg",
       "area": "Software Development / Information Systems",
@@ -129,71 +136,49 @@
   ],
   "skills": [
     {
-      "name": "General",
+      "name": "Technologies",
       "keywords": [
-        "Eye for good yet simple architecture", 
-        "OOP", 
+        "C# (ASP.NET, EF)",
+        "JavaScript / TypeScript / Node.js (+ React and Vue)",
+        "Python / C/C++ / Go / Java",
+        "Databases: SQL Server / MongoDB / Neo4j",
+        "Event-Driven Systems",
+        "DevOps (CI / CD / Docker)",
+        "Git"
+      ]
+    },
+    {
+      "name": "Team role",
+      "keywords": [
+        "Mentoring junior developers",
+        "Participating in interviews"
+      ]
+    },
+    {
+      "name": "Craftsmanship",
+      "keywords" : [
+        "Eye for good yet simple architecture",
+        "OOP",
         "SOLID",
-        "DDD",
         "Design Patterns",
+        "DDD",
         "TDD",
         "API Design"
-      ]
-    },
-    {
-      "name": "Distributed systems",
-      "keywords" : [
-        "Event-driven systems",
-        "RabbitMQ",
-        "Azure Service Bus",
-        "Microservices"
-      ]
-    },
-    {
-      "name": "Languages",
-      "keywords" : [
-        "C# / .NET",
-        "JS / TypeScript / Node",
-        "Go",
-        "C",
-        "F#"
-      ]
-    },
-    {
-      "name": "Other",
-      "keywords" : [
-        "HTML / CSS",
-        "CI / CD",
-        "Docker",
-        "Git"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Full professional proficiency"
-    },
-    {
-      "language": "Russian",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
       "language": "Dutch",
       "fluency": "Beginner"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Going Low-level",
-      "keywords": ["Raspberry Pi", "Arduino", "Electronics"]
     },
     {
-      "name": "Nature",
-      "keywords": ["Cycling", "Mountains", "Forests"]
-    },
-    {
-      "name": "Psychology"
+      "language": "Russian",
+      "fluency": "Native"
     }
   ]
 }

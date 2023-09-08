@@ -1,10 +1,10 @@
 {{#if resume.skills.length}}
 <div class="skills-container">
-    <section class="container screen-only">
+    {{!-- <section class="container screen-only">
         {{> title value="Dynamic View"}}
         <a href="#skills-graph">Go to Dynamic Skill View</a>
-    </section>
-    <section class="container print-only">
+    </section> --}}
+    {{!-- <section class="container print-only">
         {{> title value="Dynamic View"}}
         <div class="qr-skill-container">
         <img src="images/qr-skills.png"></img>
@@ -12,7 +12,7 @@
             Go to <a href="https://eugene-blokhin.com/#skills-graph">https://eugene-blokhin.com</a> to see Dynamic Skill View
         </h6>
         </div>
-    </section>
+    </section> --}}
     {{#each resume.skills}}
     <section class="container">
         {{#if name}}

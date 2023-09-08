@@ -17,7 +17,7 @@
             {{#if highlights.length}}
             <ul>
                 {{#each highlights}}
-                <li>{{.}}</li>
+                <li>{{{mdToHtmlInline .}}}</li>
                 {{/each}}
             </ul>
             {{/if}}
