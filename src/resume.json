@@ -51,7 +51,7 @@
         "Tech stack: **ASP.NET Core (Blazor)**, **C++**, **Linux**, **Raspberry Pi**, **Arduino**",
         "Re-wrote the original solution and improved code maintainability and reliability",
         "The high-level part is an **ASP.NET Core Blazor**-based web application running on Raspberry Pi (Linux)",
-        "The low-level part is written in **C++ and runs on ATMega328P** micro-controllers"
+        "The low-level part is written in **C++** and runs on ATMega328P **micro-controllers**"
       ]
     },
     {
