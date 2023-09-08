@@ -33,7 +33,7 @@
       "position": "Freelance software developer",
       "website": "https://fire.ly/",
       "startDate": "2021-06-01",
-      "summary": "I design the architecture for new features, participate in backlog grooming, perform code-reviews, address support issues from our customers, participate in the recruitment process",
+      "summary": "I design the architecture for new features, participate in backlog grooming, perform code-reviews, address support issues from our customers, **participate in the recruitment process**",
       "highlights": [
         "Tech stack: **ASP.NET Core**, **SQL Server**, **MongoDb**, **Docker**, **Azure Dev Ops**",
         "**Led and designed architecture** during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our clients",
@@ -50,8 +50,8 @@
       "highlights": [
         "Tech stack: **ASP.NET Core (Blazor)**, **C++**, **Linux**, **Raspberry Pi**, **Arduino**",
         "Re-wrote the original solution and improved code maintainability and reliability",
-        "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
-        "The low-level part is written in C++ and runs on ATMega328P micro-controllers"
+        "The high-level part is an **ASP.NET Core Blazor**-based web application running on Raspberry Pi (Linux)",
+        "The low-level part is written in **C++ and runs on ATMega328P** micro-controllers"
       ]
     },
     {
