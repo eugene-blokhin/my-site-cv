@@ -133,8 +133,11 @@ a .fa-external-link {
     color: #999;
 }
 
+li {
+    padding-bottom: 4px;
+}
+
 p, li {
-    font-size: 13px;
     font-weight: 200;
     letter-spacing: .4px;
 }
@@ -236,7 +239,7 @@ ul.two-column li {
 
 .skills-section > div {
     flex: 1 0;
-    min-width: 160px;
+    min-width: 300px;
 }
 
 .profile-header {
