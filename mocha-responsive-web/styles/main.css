@@ -220,23 +220,42 @@ ul.two-column li {
     clear: both;
 }
 
-/*
-.profile-header {
-    width: auto;
-    max-width:  300px;
-    margin-right: 50px;
+.resume-header {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    gap: 1rem;
 }
-*/
 
-/*
-.profile-pic {
-    width: auto;
-    max-width: 800px;
-    margin-right: auto;
-    /* margin-top: -5px; */
-    /* margin-right: 18px; *//*
+.skills-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex; 
+    gap: 10px;
+    justify-content: space-between;
 }
-*/
+
+.skills-section > div {
+    flex: 1 0;
+    min-width: 160px;
+}
+
+.profile-header {
+    flex: 1 1;
+}
+
+.profile-pic {
+    flex: 0 0;
+}
+
+.about-container {
+    flex: 0 0;
+}
+
+.summary-container {
+    flex: 1 1;
+    min-width: 300px;
+}
+
 .qr-skill-container {
     display: flex;
     flex-direction: row;
@@ -273,7 +292,6 @@ ul.two-column li {
     border: 2px solid #FF5701;
     object-fit: cover;
     background: white;
-    float: right;
 }
 
 .summary {
@@ -299,7 +317,7 @@ ul.two-column li {
     clear: both;
 }
 
-.left-column, .profile-header {
+.left-column {
     float: left;
     /* width: 160px; */
     width: 300px;
@@ -308,7 +326,7 @@ ul.two-column li {
     word-wrap: break-word;
 }
 
-.right-column, .profile-pic {
+.right-column {
     width: auto;
     overflow: hidden;
     /* max-width: 850px; */
