@@ -34,9 +34,9 @@
       "startDate": "2021-06-01",
       "summary": "I am a team lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
-        "Tech stack: **ASP.NET Core**, **SQL Server**, **MongoDb**, **Docker**, **Azure Dev Ops**, **Kubernetes**, **OpenTelemetry**",
-        "**Led and designed architecture** during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our large clients",
-        "Took on a challenging project related to DB querying performance and implemented ASTs to optimize the query execution. This resulted in a **1000x performance improvement** in some scenarios and eliminated performance pressure for some of the company's key clients."
+        "Tech stack: ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry",
+        "Led and designed architecture during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our large clients",
+        "Took on a challenging project related to DB querying performance and implemented ASTs to optimize the query execution. This resulted in a 1000x performance improvement in some scenarios and eliminated performance pressure for some of the company's key clients."
       ]
     },
     {
@@ -46,13 +46,13 @@
       "endDate": "2025-03-20",
       "summary": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
       "highlights": [
-        "**Tech leadership**: Defined the architecture and selected technologies across backend, frontend, deployment, and integrations",
-        "**Requirements to architecture**: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
-        "**Backend**: Developed with **.NET**, **PostgreSQL**, and **MassTransit** for scalable async processing",
-        "**Frontend**: Oversaw integration of a frontend with the backend API",
-        "**Deployment**: Set up automated CI/CD with **Argo CD** and **Kubernetes**, managing multiple environments via GitOps",
-        "**Integration**: Added analytics and operations tooling, including **Meta Pixel**, cookie consent, telemetry, and **SendGrid** for error alerts",
-        "**AI exploration**: Prototyped an AI agent to enhance user interaction and explore future capabilities"
+        "Tech leadership: Defined the architecture and selected technologies across backend, frontend, deployment, and integrations",
+        "Requirements to architecture: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
+        "Backend: Developed with .NET, PostgreSQL, and MassTransit for scalable async processing",
+        "Frontend: Oversaw integration of a frontend with the backend API",
+        "Deployment: Set up automated CI/CD with Argo CD and Kubernetes, managing multiple environments via GitOps",
+        "Integration: Added analytics and operations tooling, including Meta Pixel, cookie consent, telemetry, and SendGrid for error alerts",
+        "AI exploration: Prototyped an AI agent to enhance user interaction and explore future capabilities"
       ]
     },
     {
@@ -63,10 +63,10 @@
       "endDate": "2021-04-30",
       "summary": "Led the development (designing the architecture, building, and maintaining) of controlling software for a hardware 3D scanner. The generated 3D models were used in a AR/VR marketplace.",
       "highlights": [
-        "Tech stack: **ASP.NET Core (Blazor)**, **C++**, **Linux**, **Raspberry Pi**, **Arduino**",
+        "Tech stack: ASP.NET Core (Blazor), C++, Linux, Raspberry Pi, Arduino",
         "Re-wrote the original solution and improved code maintainability and reliability",
-        "The high-level part is an **ASP.NET Core Blazor**-based web application running on Raspberry Pi (Linux)",
-        "The low-level part is written in **C++** and runs on ATMega328P **micro-controllers**"
+        "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
+        "The low-level part is written in C++ and runs on ATMega328P micro-controllers"
       ]
     },
     {
@@ -76,7 +76,7 @@
       "startDate": "2019-10-01",
       "endDate": "2021-05-31",
       "highlights": [
-        "Tech stack: **C#/.NET**, **Azure Storage/Functions/App Services/Service Bus/ARM templates**",
+        "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
         "Designed and created a backup solution for our event-sourcing system log stored in Azure Tables (> 2.5 TB of data)"
       ]
     },
@@ -87,9 +87,9 @@
       "startDate": "2017-05-01",
       "endDate": "2019-09-15",
       "highlights": [
-        "Tech stack: **C#/.NET**, **NServiceBus**, **Azure Storage/App Services/ServiceFabric/Service Bus**...",
-        "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked **20x faster than the default Microsoft implementation**",
-        "**Pioneered** rewriting our initially synchronous order flow to use **asynchronous messaging architecture**. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of **~200k orders per day**",
+        "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
+        "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked 20x faster than the default Microsoft implementation",
+        "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
         "Created a module to calculate and generate invoices for our clients"
       ]
     },
@@ -101,7 +101,7 @@
       "endDate": "2017-04-30",
       "summary": "Built and maintained software powering out photo-products production facilities in The Netherlands and India.",
       "highlights": [
-        "Tech stack: **C#/.NET**, **ASP.NET**, **SQL Server**, **RabbitMQ**"
+        "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ"
       ]
     },
     {
@@ -111,7 +111,7 @@
       "startDate": "2012-11-01",
       "endDate": "2014-11-13",
       "highlights": [
-        "Tech stack: **C#/.NET**, **ASP.NET WebApi**, **SQL Server**"
+        "Tech stack: C#/.NET, ASP.NET WebApi, SQL Server"
       ]
     },
     {
@@ -121,7 +121,7 @@
       "startDate": "2011-09-01",
       "endDate": "2012-10-31",
       "highlights": [
-        "Tech stack: **C#/.NET**, **Unity3D**"
+        "Tech stack: C#/.NET, Unity3D"
       ]
     }
   ],
