@@ -1,17 +1,16 @@
 {
   "meta": {
-    "theme": "mocha-responsive"
+    "theme": "professional"
   },
   "basics": {
     "name": "Eugene Blokhin",
-    "label": "Senior Full-Stack Software Engineer",
-    "picture": "images/profile3.jpg",
+    "label": "AI-Driven Systems Architect | 13+ Years in Scalable Software Development",
     "email": "eugene.blokhin@gmail.com",
     "phone": "+31 6 490 450 49",
     "website": "http://eugene-blokhin.com",
-    "summary": "I am a software engineer with **over ten years of successful career**. Having gone through many projects and worked in many teams, I have gained invaluable experience and learned many lessons both as a technical specialist and as a person. As a **T-shaped professional**, I specialize in building **.NET backend systems** but also knowledgeable in many other areas: **React, Node.js, CI/CD pipelines, Linux, Machine Learning, C/C++, and microcontrollers** to name a few. This experience allows me to choose the right tools and approaches for solving a task with limited effort spent. I **never stop learning** from others and try to be helpful by **sharing knowledge** with more junior colleagues.",
+    "summary": "Experienced software engineer with over a decade of building robust, maintainable, and cost-efficient backend systems. Now focused on leveraging this deep end-to-end development expertise to design and deliver AI-enabled solutions that drive real-world impact. Passionate about integrating modern AI to streamline workflows and enhance user experiences—both in the workplace and beyond.",
     "location": {
-      "city": "Amsterdam / Remote / Open to relocation",
+      "city": "Amsterdam / Remote / Open to relocate",
       "countryCode": "NL"
     },
     "profiles": [
@@ -30,19 +29,35 @@
   "work": [
     {
       "company": "Firely",
-      "position": "Freelance software developer",
+      "position": "Senior Software Engineer / Team Lead (Freelance)",
       "website": "https://fire.ly/",
       "startDate": "2021-06-01",
-      "summary": "I design the architecture for new features, participate in backlog grooming, perform code-reviews, address support issues from our customers, **participate in the recruitment process**",
+      "summary": "I am a team lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
-        "Tech stack: **ASP.NET Core**, **SQL Server**, **MongoDb**, **Docker**, **Azure Dev Ops**",
-        "**Led and designed architecture** during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our clients",
-        "My teammates especially positively recognized my approach to onboarding of new colleagues"
+        "Tech stack: **ASP.NET Core**, **SQL Server**, **MongoDb**, **Docker**, **Azure Dev Ops**, **Kubernetes**, **OpenTelemetry**",
+        "**Led and designed architecture** during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our large clients",
+        "Took on a challenging project related to DB querying performance and implemented ASTs to optimize the query execution. This resulted in a **1000x performance improvement** in some scenarios and eliminated performance pressure for some of the company's key clients."
+      ]
+    },
+    {
+      "company": "GetJob",
+      "position": "Technical Co-founder / Acting CTO",
+      "startDate": "2024-02-01",
+      "endDate": "2025-03-20",
+      "summary": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
+      "highlights": [
+        "**Tech leadership**: Defined the architecture and selected technologies across backend, frontend, deployment, and integrations",
+        "**Requirements to architecture**: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
+        "**Backend**: Developed with **.NET**, **PostgreSQL**, and **MassTransit** for scalable async processing",
+        "**Frontend**: Oversaw integration of a frontend with the backend API",
+        "**Deployment**: Set up automated CI/CD with **Argo CD** and **Kubernetes**, managing multiple environments via GitOps",
+        "**Integration**: Added analytics and operations tooling, including **Meta Pixel**, cookie consent, telemetry, and **SendGrid** for error alerts",
+        "**AI exploration**: Prototyped an AI agent to enhance user interaction and explore future capabilities"
       ]
     },
     {
       "company": "Designhubz",
-      "position": "Freelance software developer",
+      "position": "Tech Lead (freelance)",
       "website": "https://designhubz.com/",
       "startDate": "2020-06-01",
       "endDate": "2021-04-30",
@@ -73,12 +88,9 @@
       "endDate": "2019-09-15",
       "highlights": [
         "Tech stack: **C#/.NET**, **NServiceBus**, **Azure Storage/App Services/ServiceFabric/Service Bus**...",
-        "Set up CI/CD pipeline with TeamCity and Octopus Deploy. It made the deployment simpler, more reliable, and less error-prone. It also allowed for urgent rollbacks",
         "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked **20x faster than the default Microsoft implementation**",
         "**Pioneered** rewriting our initially synchronous order flow to use **asynchronous messaging architecture**. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of **~200k orders per day**",
-        "Created a system to calculate and generate invoices for our clients",
-        "Built integration for Oracle NetSuite CRM/ERP system",
-        "Modernized our integration RESTful API testing suite to make more future-proof"
+        "Created a module to calculate and generate invoices for our clients"
       ]
     },
     {
@@ -89,10 +101,7 @@
       "endDate": "2017-04-30",
       "summary": "Built and maintained software powering out photo-products production facilities in The Netherlands and India.",
       "highlights": [
-        "Tech stack: **C#/.NET**, **ASP.NET**, **SQL Server**, **RabbitMQ**",
-        "Modernized a windows service to deliver more than **3.5 TB of user's photos daily** from the cloud to our print factory. It allowed decommissioning several obsolete services, therefore, improved reliability and maintainability",
-        "Implemented a set of SQL static analysis tools to help us keep our database schema under control",
-        "Gathered requirements and analyzed workflows in one of the production cells. Then, developed a monitoring system to help distributing workforce more evenly to achieve maximum throughput"
+        "Tech stack: **C#/.NET**, **ASP.NET**, **SQL Server**, **RabbitMQ**"
       ]
     },
     {
@@ -102,9 +111,7 @@
       "startDate": "2012-11-01",
       "endDate": "2014-11-13",
       "highlights": [
-        "Tech stack: **C#/.NET**, **ASP.NET WebApi**, **SQL Server**, **SoapUI**",
-        "Took the ownership in performance testing and optimizations for our new RESTful service",
-        "Wrote my master's thesis based on this project"
+        "Tech stack: **C#/.NET**, **ASP.NET WebApi**, **SQL Server**"
       ]
     },
     {
@@ -114,8 +121,7 @@
       "startDate": "2011-09-01",
       "endDate": "2012-10-31",
       "highlights": [
-        "Tech stack: **C#/.NET**, **Unity3D**, **DirectDraw**",
-        "Shared my work experience on a stage in front of approximately 200 people audience of a game dev conference"
+        "Tech stack: **C#/.NET**, **Unity3D**"
       ]
     }
   ],
@@ -140,7 +146,7 @@
       "keywords": [
         "C# (ASP.NET, EF)",
         "JavaScript / TypeScript / Node.js (+ React and Vue)",
-        "Python / C/C++ / Go / Java",
+        "Python / C/C++",
         "Databases: SQL Server / MongoDB / Neo4j",
         "Event-Driven Systems",
         "DevOps (CI / CD / Docker)",
@@ -148,15 +154,27 @@
       ]
     },
     {
+      "name": "AI",
+      "keywords": [
+        "Understanding of ML concepts (backward propagation, gradient descent, transformers, etc.)",
+        "TensorFlow",
+        "LLMs (GPT, Claude, etc.)",
+        "CrewAI / LangChain / LangFlow",
+        "Building and using MCP server"
+      ]
+    },
+    {
       "name": "Team role",
       "keywords": [
+        "Shaping the technical vision of a product",
+        "Making sure the dev process is smooth and efficient",
         "Mentoring junior developers",
         "Participating in interviews"
       ]
     },
     {
       "name": "Craftsmanship",
-      "keywords" : [
+      "keywords": [
         "Eye for good yet simple architecture",
         "OOP",
         "SOLID",
