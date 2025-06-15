@@ -12,6 +12,6 @@ jobs:
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.TOKEN }}
         gist_id: 804a808a187a770604ad8bb6ab83027b
         file_path: src/resume.json
