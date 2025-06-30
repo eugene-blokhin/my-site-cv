@@ -114,14 +114,14 @@
       "studyType": "Master",
       "startDate": "2009-09-01",
       "endDate": "2014-06-01"
-    },
-    {
-      "institution": "Coursera",
-      "area": "Machine Learning Specialization + Deep Learning Specialization by Andrew Ng",
-      "startDate": "2023-02-01",
-      "endDate": "2023-06-01"
     }
   ],
+  "certificates": [{
+      "name": "Machine Learning Specialization",
+      "date": "2023-02-20",
+      "issuer": "DeepLearning.AI, Stanford University",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/QL5MWP2B4PNX"
+  }],
   "skills": [
     {
       "name": "Programming Languages / Frameworks",
