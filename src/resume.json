@@ -4,14 +4,12 @@
   },
   "basics": {
     "name": "Eugene Blokhin",
-    "label": "AI-Driven Systems Architect | 13+ Years in Scalable Software Development",
+    "label": "Tech Lead | Engineering Leadership | Scalable Systems | AI/ML Explorer",
     "email": "eugene.blokhin@gmail.com",
-    "phone": "+31 6 490 450 49",
     "website": "http://eugene-blokhin.com",
-    "summary": "Experienced software engineer with over a decade of building robust, maintainable, and cost-efficient backend systems. Now focused on leveraging this deep end-to-end development expertise to design and deliver AI-enabled solutions that drive real-world impact. Passionate about integrating modern AI to streamline workflows and enhance user experiences—both in the workplace and beyond.",
+    "summary": "Tech Lead with 13+ years of experience building scalable backend systems and leading cross-functional teams. Proven track record in driving architecture decisions, improving delivery processes, and mentoring engineers. I lead with a focus on ownership, trust, and continuous improvement—creating environments where teams deliver reliably and grow professionally.",
     "location": {
-      "city": "Amsterdam / Remote / Open to relocate",
-      "countryCode": "NL"
+      "city": "Amsterdam, NL | Remote | Open to relocation"
     },
     "profiles": [
       {
@@ -29,24 +27,28 @@
   "work": [
     {
       "company": "Firely",
-      "position": "Senior Software Engineer / Team Lead (Freelance)",
+      "position": "Tech Lead (joined as Senior Software Engineer)",
       "website": "https://fire.ly/",
       "startDate": "2021-06-01",
       "summary": "I am a team lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
         "Tech stack: ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry",
+        "Spearheaded a major database performance initiative, introducing AST-based query optimizations that improved speed by up to 1000x for key clients, resolving critical bottlenecks with 4x less engineering effort than originally estimated",
+        "Designed and implemented a zero-downtime database migration strategy, enabling seamless updates without service interruptions",
+        "Implemented AI-driven release documentation automation, enabling the Consultant Team to better understand technical changes and streamline client migrations",
+        "Led a team-wide process overhaul focused on predictability and transparency, reducing feature delivery time and minimizing surprises across QA, PO, developers, and external stakeholders",
         "Led and designed architecture during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our large clients",
-        "Took on a challenging project related to DB querying performance and implemented ASTs to optimize the query execution. This resulted in a 1000x performance improvement in some scenarios and eliminated performance pressure for some of the company's key clients."
+        "Initiated regular knowledge-sharing sessions that improved technical depth, fostered team cohesion, and built a stronger remote-first engineering culture"
       ]
     },
     {
       "company": "GetJob",
-      "position": "Technical Co-founder / Acting CTO",
+      "position": "Technical Co-founder",
       "startDate": "2024-02-01",
       "endDate": "2025-03-20",
       "summary": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
       "highlights": [
-        "Tech leadership: Defined the architecture and selected technologies across backend, frontend, deployment, and integrations",
+        "Tech leadership: Owned architecture and technology selection across backend, frontend, deployment, and external integrations",
         "Requirements to architecture: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
         "Backend: Developed with .NET, PostgreSQL, and MassTransit for scalable async processing",
         "Frontend: Oversaw integration of a frontend with the backend API",
@@ -64,9 +66,9 @@
       "summary": "Led the development (designing the architecture, building, and maintaining) of controlling software for a hardware 3D scanner. The generated 3D models were used in a AR/VR marketplace.",
       "highlights": [
         "Tech stack: ASP.NET Core (Blazor), C++, Linux, Raspberry Pi, Arduino",
-        "Re-wrote the original solution and improved code maintainability and reliability",
+        "Re-architected and rewrote the original solution, dramatically improving code maintainability and system reliability",
         "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
-        "The low-level part is written in C++ and runs on ATMega328P micro-controllers"
+        "Low-level control implemented in C++, running on ATMega328P microcontrollers"
       ]
     },
     {
@@ -88,100 +90,92 @@
       "endDate": "2019-09-15",
       "highlights": [
         "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
-        "Wrote custom serialization/deserialization implementation for Azure Table Storage which worked 20x faster than the default Microsoft implementation",
+        "Engineered a custom Azure Table Storage serialization layer, achieving 20x speed improvement over Microsoft’s default implementation",
         "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
         "Created a module to calculate and generate invoices for our clients"
       ]
     },
     {
-      "company": "Albelli",
-      "position": "Software Engineer",
-      "website": "http://albelli.nl",
-      "startDate": "2014-12-01",
-      "endDate": "2017-04-30",
-      "summary": "Built and maintained software powering out photo-products production facilities in The Netherlands and India.",
-      "highlights": [
-        "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ"
-      ]
-    },
-    {
-      "company": "VIAcode",
+      "company": "Prior experience",
       "position": "Software Developer",
-      "website": "http://viacode.com",
-      "startDate": "2012-11-01",
-      "endDate": "2014-11-13",
       "highlights": [
-        "Tech stack: C#/.NET, ASP.NET WebApi, SQL Server"
-      ]
-    },
-    {
-      "company": "Studio Mobile",
-      "position": "Junior Software Developer",
-      "website": "http://studiomobile.ru",
-      "startDate": "2011-09-01",
-      "endDate": "2012-10-31",
-      "highlights": [
-        "Tech stack: C#/.NET, Unity3D"
+        "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ, Unity3D, Python",
+        "Albelli (2014-12-01 to 2017-04-30): Built and maintained software powering photo-products production facilities in The Netherlands and India",
+        "VIAcode (2012-11-01 to 2014-11-13): Developed a SaaS-platform for legal matter management",
+        "Studio Mobile (2011-09-01 to 2012-10-31): Worked on mobile applications using"
       ]
     }
   ],
   "education": [
-    {
-      "institution": "Coursera",
-      "area": "Machine Learning Specialization + Deep Learning Specialization by Andrew Ng",
-      "startDate": "2023-02-01",
-      "endDate": "2023-06-01"
-    },
     {
       "institution": "University Of Information Technologies, Mechanics and Optics (ITMO) - Russia, St. Petersburg",
       "area": "Software Development / Information Systems",
       "studyType": "Master",
       "startDate": "2009-09-01",
       "endDate": "2014-06-01"
+    },
+    {
+      "institution": "Coursera",
+      "area": "Machine Learning Specialization + Deep Learning Specialization by Andrew Ng",
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-01"
     }
   ],
   "skills": [
     {
-      "name": "Technologies",
+      "name": "Programming Languages / Frameworks",
       "keywords": [
-        "C# (ASP.NET, EF)",
+        "C# (ASP.NET Core, EF)",
+        "Python",
         "JavaScript / TypeScript / Node.js (+ React and Vue)",
-        "Python / C/C++",
-        "Databases: SQL Server / MongoDB / Neo4j",
-        "Event-Driven Systems",
-        "DevOps (CI / CD / Docker)",
-        "Git"
+        "C"
       ]
     },
     {
-      "name": "AI",
+      "name": "Databases / Messaging",
       "keywords": [
-        "Understanding of ML concepts (backward propagation, gradient descent, transformers, etc.)",
+        "SQL Server",
+        "PostgreSQL",
+        "MongoDB",
+        "Azure Table Storage",
+        "RabbitMQ",
+        "Kafka",
+        "Neo4j",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps / CI/CD / Cloud",
+      "keywords": [
+        "Azure (Service Bus, Functions, App Services, Storage, ARM/bicep templates)",
+        "Docker",
+        "Kubernetes",
+        "Azure DevOps",
+        "GitHub Actions",
+        "GitOps (ArgoCD)",
+        "OpenTelemetry"
+      ]
+    },
+    {
+      "name": "AI / Machine Learning",
+      "keywords": [
+        "ML Fundamentals (Gradient Descent, Backpropagation, Transformers)",
         "TensorFlow",
-        "LLMs (GPT, Claude, etc.)",
-        "CrewAI / LangChain / LangFlow",
-        "Building and using MCP server"
+        "CrewAI",
+        "LangFlow",
+        "Prompt Engineering",
+        "Vector Databases",
+        "MCP Server Deployment"
       ]
-    },
+    }
     {
-      "name": "Team role",
+      "name": "Soft Skills",
       "keywords": [
-        "Shaping the technical vision of a product",
-        "Making sure the dev process is smooth and efficient",
-        "Mentoring junior developers",
-        "Participating in interviews"
-      ]
-    },
-    {
-      "name": "Craftsmanship",
-      "keywords": [
-        "Eye for good yet simple architecture",
-        "OOP",
-        "SOLID",
-        "Design Patterns",
-        "DDD",
-        "TDD",
-        "API Design"
+        "Tech Leadership",
+        "Conflict Resolution",
+        "Tech Mentoring",
+        "Cross-team Collaboration",
+        "Agile Methodologies (Scrum, Kanban)"
       ]
     }
   ],
@@ -197,6 +191,20 @@
     {
       "language": "Russian",
       "fluency": "Native"
+    }
+  ],
+  "projects":[
+    {
+      "name": "AI-Powered Telegram bot for matching freelancers and clients",
+      "startDate": "2024-11-15",
+      "endDate": "2025-02-15",
+      "description": "A Telegram bot that automatically matches freelancers and clients based on the semantical meaning of their  services / requests. It uses a fine-tuned model to understand the meaning of the text and match it with the most relevant services / requests. The bot in C# with Postgres as a database. The bot has been deployed but later I took it down due to difficulties attracting users."
+    },
+    {
+      "name": "LSTM-based stock price prediction",
+      "startDate": "2023-06-01",
+      "endDate": "2023-06-10",
+      "description": "A Python-based project that uses LSTM neural networks to predict stock prices"
     }
   ]
 }
