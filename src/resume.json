@@ -204,7 +204,7 @@
       "name": "LSTM-based stock price prediction",
       "startDate": "2023-06-01",
       "endDate": "2023-06-10",
-      "description": "A Python-based project that uses LSTM neural networks to predict stock prices"
+      "description": "A Python-based project that uses a LSTM neural network to predict stock prices"
     }
   ]
 }
