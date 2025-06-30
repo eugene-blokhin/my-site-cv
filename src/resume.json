@@ -96,8 +96,9 @@
       ]
     },
     {
-      "company": "Prior experience",
-      "position": "Software Developer",
+      "position": "Prior experience as Software Developer",
+      "startDate": "2011-09-01",
+      "endDate": "2017-04-30",
       "highlights": [
         "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ, Unity3D, Python",
         "Albelli (2014-12-01 to 2017-04-30): Built and maintained software powering photo-products production facilities in The Netherlands and India",
