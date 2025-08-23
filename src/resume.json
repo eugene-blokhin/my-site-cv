@@ -133,16 +133,12 @@
       ]
     },
     {
-      "name": "Databases / Messaging",
+      "name": "Architecture",
       "keywords": [
-        "SQL Server",
-        "PostgreSQL",
-        "MongoDB",
-        "Azure Table Storage",
-        "RabbitMQ",
-        "Kafka",
-        "Neo4j",
-        "Redis"
+        "Data: SQL Server, PostgreSQL, MongoDB, Azure Storage, Neo4j",
+        "Messaging: RabbitMQ, Kafka",
+        "Cache: Redis",
+        "Standards: OAuth 2.0, OpenID Connect"
       ]
     },
     {
