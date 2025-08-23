@@ -32,7 +32,7 @@
       "startDate": "2021-06-01",
       "summary": "I am a tech lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
-        "Tech stack: ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry",
+        "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
         "Spearheaded a major database performance initiative, introducing AST-based query optimizations that improved speed by up to 1000x for key clients, resolving critical bottlenecks with 4x less engineering effort than originally estimated",
         "Designed and implemented a zero-downtime database migration strategy, enabling seamless updates without service interruptions",
         "Implemented AI-driven release documentation automation, enabling the Consultant Team to better understand technical changes and streamline client migrations",
