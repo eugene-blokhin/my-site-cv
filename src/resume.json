@@ -30,6 +30,7 @@
       "position": "Tech Lead (joined as Senior Software Engineer)",
       "website": "https://fire.ly/",
       "startDate": "2021-06-01",
+      "endDate": "2025-09-30",
       "summary": "I am a tech lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
         "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
