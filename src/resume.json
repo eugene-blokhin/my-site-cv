@@ -33,7 +33,7 @@
       "endDate": "2025-09-30",
       "summary": "I am a tech lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
-        "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDb, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
+        "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDB, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
         "Spearheaded a major database performance initiative, introducing AST-based query optimizations that improved speed by up to 1000x for key clients, resolving critical bottlenecks with 4x less engineering effort than originally estimated",
         "Designed and implemented a zero-downtime database migration strategy, enabling seamless updates without service interruptions",
         "Implemented AI-driven release documentation automation, enabling the Consultant Team to better understand technical changes and streamline client migrations",
@@ -43,41 +43,12 @@
       ]
     },
     {
-      "company": "GetJob",
-      "position": "Technical Co-founder (a side project)",
-      "startDate": "2024-02-01",
-      "endDate": "2025-03-20",
-      "summary": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
-      "highlights": [
-        "Tech leadership: Owned architecture and technology selection across backend, frontend, deployment, and external integrations",
-        "Requirements to architecture: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
-        "Backend: Developed with .NET, PostgreSQL, and MassTransit for scalable async processing",
-        "Frontend: Oversaw integration of a frontend with the backend API",
-        "Deployment: Set up automated CI/CD with Argo CD and Kubernetes, managing multiple environments via GitOps",
-        "Integration: Added analytics and operations tooling, including Meta Pixel, cookie consent, telemetry, and SendGrid for error alerts",
-        "AI exploration: Prototyped an AI agent to enhance user interaction and explore future capabilities"
-      ]
-    },
-    {
-      "company": "Designhubz",
-      "position": "Tech Lead (freelance, a side project)",
-      "website": "https://designhubz.com/",
-      "startDate": "2020-06-01",
-      "endDate": "2021-04-30",
-      "summary": "Led the development (designing the architecture, building, and maintaining) of controlling software for a hardware 3D scanner. The generated 3D models were used in a AR/VR marketplace.",
-      "highlights": [
-        "Tech stack: ASP.NET Core (Blazor), C++, Linux, Raspberry Pi, Arduino",
-        "Re-architected and rewrote the original solution, dramatically improving code maintainability and system reliability",
-        "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
-        "Low-level control implemented in C++, running on ATMega328P microcontrollers"
-      ]
-    },
-    {
       "company": "Effectory",
       "position": "Senior Software Developer",
       "website": "http://effectory.com",
       "startDate": "2019-10-01",
       "endDate": "2021-05-31",
+      "summary": "Helped the company on their transition to a cloud-based SaaS model by designing and building new features.",
       "highlights": [
         "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
         "Designed and created a backup solution for our event-sourcing system log stored in Azure Tables (> 2.5 TB of data)"
@@ -89,22 +60,49 @@
       "website": "http://chamatheapp.com",
       "startDate": "2017-05-01",
       "endDate": "2019-09-15",
+      "summary": "Helped the Uber-like startup for gas delivery in Brazil to scale on the technical side, gradually replacing MVP monolith with more reliable and maintainable microservices architecture and implementing new features as the business grew.",
       "highlights": [
         "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
-        "Engineered a custom Azure Table Storage serialization layer, achieving 20x speed improvement over Microsoft’s default implementation",
         "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
-        "Created a module to calculate and generate invoices for our clients"
+        "Engineered a custom Azure Table Storage serialization layer, achieving 20x speed improvement over Microsoft’s default implementation",
+        "Implemented and maintained an service to calculate and render invoices for our clients"
       ]
     },
     {
-      "position": "Prior experience as Software Developer",
-      "startDate": "2011-09-01",
+      "company": "Albelli",
+      "position": "Software Engineer",
+      "website": "http://albelli.nl",
+      "startDate": "2014-12-01",
       "endDate": "2017-04-30",
+      "summary": "Built and maintained software powering photo-products production facilities in The Netherlands and India",
       "highlights": [
-        "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ, Unity3D, Python",
-        "Albelli (2014-12-01 to 2017-04-30): Built and maintained software powering photo-products production facilities in The Netherlands and India",
-        "VIAcode (2012-11-01 to 2014-11-13): Developed a SaaS-platform for legal matter management",
-        "Studio Mobile (2011-09-01 to 2012-10-31): Worked on mobile applications using"
+        "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ",
+        "Modernized a service to deliver more than 3.5 TB of user's photos daily from the cloud to our print factory. It allowed decommissioning several obsolete services, therefore, improved reliability and maintainability",
+        "Implemented a set of SQL static analysis tools to help us keep our database schema under control",
+        "Gathered requirements and analyzed workflows in one of the factory production stages. Then, developed a monitoring system to help distributing workforce more evenly to achieve maximum throughput for that stage"
+      ]
+    },
+    {
+      "company": "VIAcode",
+      "position": "Software Developer",
+      "website": "http://viacode.com",
+      "startDate": "2012-11-01",
+      "endDate": "2014-11-13",
+      "highlights": [
+        "Tech stack: C#/.NET, ASP.NET WebApi, SQL Server, SoapUI",
+        "Took the ownership in performance testing and optimizations for our new RESTful service",
+        "Wrote my master's thesis based on this project"
+      ]
+    },
+    {
+      "company": "Studio Mobile",
+      "position": "Junior Software Developer",
+      "website": "http://studiomobile.ru",
+      "startDate": "2011-09-01",
+      "endDate": "2012-10-31",
+      "highlights": [
+        "Tech stack: C#/.NET, Unity3D, DirectDraw",
+        "Helped develop and maintain a game using Unity3D"
       ]
     }
   ],
@@ -193,16 +191,52 @@
   ],
   "projects":[
     {
+      "name": "Freelance marketplace MVP for Czech market",
+      "startDate": "2024-02-01",
+      "endDate": "2025-03-20",
+      "description": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
+      "highlights": [
+        "Tech leadership: Owned architecture and technology selection across backend, frontend, deployment, and external integrations",
+        "Requirements to architecture: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
+        "Backend: Developed with .NET, PostgreSQL, and MassTransit for scalable async processing",
+        "Frontend: guided a frontend engineer in building a responsive web app using Nuxt.js",
+        "Deployment: Set up automated CI/CD with Argo CD and Kubernetes, managing multiple environments via GitOps",
+        "Integration: Added analytics and operations tooling, including Meta Pixel, cookie consent, telemetry, and SendGrid for error alerts",
+        "AI exploration: Prototyped an AI agent to enhance user interaction and explore future capabilities"
+      ]
+    },
+    {
       "name": "AI-Powered Telegram bot for matching freelancers and clients",
+      "url": "https://github.com/eugene-blokhin/p2p-job-bot-backend",
       "startDate": "2024-11-15",
       "endDate": "2025-02-15",
-      "description": "A Telegram bot that automatically matches freelancers and clients based on the semantic meaning of their services/requests. It uses a fine-tuned model to understand the meaning of the text and match it with the most relevant services/requests. The bot is in C# with Postgres as a database. The bot has been deployed, but later I took it down due to difficulties attracting users."
+      "description": "A Telegram bot that automatically matches freelancers and clients based on the semantic meaning of their services/requests. It uses a fine-tuned model to understand the meaning of the text and match it with the most relevant services/requests. The bot is in C# with Postgres as a database. The bot has been deployed, but later I took it down due to difficulties attracting users.",
+      "highlights": [
+        "Tech Stack: C#, ASP.NET Core, PostgreSQL, Entity Framework, OpenAI API, HuggingFace Transformers, Docker, ArgoCD, Kubernetes"
+      ]
     },
     {
       "name": "LSTM-based stock price prediction",
+      "url": "https://github.com/eugene-blokhin/ai-financial-analysis",
       "startDate": "2023-06-01",
       "endDate": "2023-06-10",
-      "description": "A Python-based project that uses a LSTM neural network to predict stock prices"
+      "description": "A Python-based project that uses a LSTM neural network to predict stock prices",
+      "highlights": [
+        "Tech Stack: Python, TensorFlow, Pandas, NumPy, Matplotlib"
+      ]
+    },
+    {
+      "name": "Implementing a 3D scanner control software (freelance)",
+      "url": "https://designhubz.com",
+      "startDate": "2020-06-01",
+      "endDate": "2021-04-30",
+     "description": "Led the development of controlling software for a hardware 3D scanner used in an AR/VR marketplace. Re-architected the entire solution to improve maintainability and system reliability.",
+     "highlights": [
+        "Tech stack: ASP.NET Core (Blazor), C++, Linux, Raspberry Pi, Arduino",
+        "Re-architected and rewrote the original solution, dramatically improving code maintainability and system reliability",
+        "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
+        "Low-level control implemented in C++, running on ATMega328P microcontrollers"
+      ]
     }
   ]
 }
