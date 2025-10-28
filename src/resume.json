@@ -48,7 +48,7 @@
       "website": "http://effectory.com",
       "startDate": "2019-10-01",
       "endDate": "2021-05-31",
-      "summary": "Helped the company on their transition to a cloud-based SaaS model by designing and building new features.",
+      "summary": "Helped the company with its transition to a cloud-based SaaS model by designing and building new features.",
       "highlights": [
         "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
         "Designed and created a backup solution for our event-sourcing system log stored in Azure Tables (> 2.5 TB of data)"
@@ -65,7 +65,7 @@
         "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
         "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
         "Engineered a custom Azure Table Storage serialization layer, achieving 20x speed improvement over Microsoft’s default implementation",
-        "Implemented and maintained an service to calculate and render invoices for our clients"
+        "Implemented and maintained a service to calculate and render invoices for our clients"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ",
         "Modernized a service to deliver more than 3.5 TB of user's photos daily from the cloud to our print factory. It allowed decommissioning several obsolete services, therefore, improved reliability and maintainability",
         "Implemented a set of SQL static analysis tools to help us keep our database schema under control",
-        "Gathered requirements and analyzed workflows in one of the factory production stages. Then, developed a monitoring system to help distributing workforce more evenly to achieve maximum throughput for that stage"
+        "Gathered requirements and analyzed workflows in one of the factory production stages. Then, developed a monitoring system to help distribute the workforce more evenly to achieve maximum throughput for that stage"
       ]
     },
     {
@@ -88,9 +88,10 @@
       "website": "http://viacode.com",
       "startDate": "2012-11-01",
       "endDate": "2014-11-13",
+      "summary": "Helped build new features for a SaaS solution for legal matter management (a Wolters Kluwer product) used by numerous large law firms in the US",
       "highlights": [
         "Tech stack: C#/.NET, ASP.NET WebApi, SQL Server, SoapUI",
-        "Took the ownership in performance testing and optimizations for our new RESTful service",
+        "Took ownership of performance testing and optimizations for our new RESTful service",
         "Wrote my master's thesis based on this project"
       ]
     },
@@ -100,9 +101,9 @@
       "website": "http://studiomobile.ru",
       "startDate": "2011-09-01",
       "endDate": "2012-10-31",
+      "summary": "Helped develop and maintain a game using Unity3D",
       "highlights": [
-        "Tech stack: C#/.NET, Unity3D, DirectDraw",
-        "Helped develop and maintain a game using Unity3D"
+        "Tech stack: C#/.NET, Unity3D, DirectDraw"
       ]
     }
   ],
