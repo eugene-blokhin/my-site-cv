@@ -63,7 +63,7 @@
       "summary": "Helped the Uber-like startup for gas delivery in Brazil to scale on the technical side, gradually replacing MVP monolith with more reliable and maintainable microservices architecture and implementing new features as the business grew.",
       "highlights": [
         "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
-        "Pioneered rewriting our initially synchronous order flow to use asynchronous messaging architecture. It opened up a way for extending functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
+        "Pioneered rewriting our initially synchronous order flow to use an asynchronous messaging architecture. It opened up a way to extend functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
         "Engineered a custom Azure Table Storage serialization layer, achieving 20x speed improvement over Microsoft’s default implementation",
         "Implemented and maintained a service to calculate and render invoices for our clients"
       ]
