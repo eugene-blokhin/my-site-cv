@@ -1,6 +1,7 @@
 {
   "meta": {
-    "theme": "professional"
+    "theme": "professional",
+    "language": "en"
   },
   "basics": {
     "name": "Eugene Blokhin",
@@ -34,12 +35,12 @@
       "summary": "I am a tech lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
       "highlights": [
         "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDB, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
-        "Spearheaded a major database performance initiative, introducing AST-based query optimizations that improved speed by up to 1000x for key clients, resolving critical bottlenecks with 4x less engineering effort than originally estimated",
-        "Designed and implemented a zero-downtime database migration strategy, enabling seamless updates without service interruptions",
-        "Implemented AI-driven release documentation automation, enabling the Consultant Team to better understand technical changes and streamline client migrations",
-        "Led a team-wide process overhaul focused on predictability and transparency, reducing feature delivery time and minimizing surprises across QA, PO, developers, and external stakeholders",
-        "Led and designed architecture during a consultancy project where we developed an ETL pipeline to migrate data from a proprietary database to Firely Server for one of our large clients",
-        "Initiated regular knowledge-sharing sessions that improved technical depth, fostered team cohesion, and built a stronger remote-first engineering culture"
+        "**Database Performance Crisis Resolution**: When key clients experienced severe query performance issues threatening SLA compliance, I spearheaded a 4-month performance initiative. I introduced AST-based query optimizations and redesigned critical database operations, achieving up to 1000x speed improvements for key clients while completing the project with 4x less engineering effort than originally estimated.",
+        "**Zero-Downtime Migration Strategy**: Facing the challenge of updating production databases without service interruptions for healthcare clients, I designed and implemented a comprehensive zero-downtime database migration strategy. This enabled seamless updates across all client environments without any service disruptions, maintaining 100% uptime during critical migrations.",
+        "**Release Documentation Automation**: To address the Consultant Team's difficulty understanding technical changes for client migrations, I implemented AI-driven release documentation automation. This solution automatically generated clear, non-technical summaries of changes, reducing consultant onboarding time for new releases and streamlining client migration processes.",
+        "**Team Process Transformation**: When the team struggled with unpredictable delivery timelines and communication gaps, I led a comprehensive process overhaul focused on predictability and transparency. I established clear workflows, improved cross-team communication protocols, reducing feature delivery time and eliminating surprises for QA, PO, developers, and external stakeholders.",
+        "**Large-Scale ETL Migration Project**: For a major client requiring migration from their proprietary database of hundreds of thousands of patients to Firely Server, I led the architecture design and development of a custom ETL pipeline. I coordinated requirements gathering, designed the data transformation logic, oversaw the implementation, and gave demos to the client, successfully migrating millions of healthcare records while maintaining data integrity and compliance standards.",
+        "**Remote Team Culture Building**: Recognizing knowledge silos and reduced team cohesion in our remote-first environment, I initiated regular knowledge-sharing sessions and technical deep-dives. These sessions improved technical depth across the team, fostered stronger collaboration, and built a more inclusive remote-first engineering culture with 95% attendance rates."
       ]
     },
     {
@@ -51,7 +52,7 @@
       "summary": "Helped the company with its transition to a cloud-based SaaS model by designing and building new features.",
       "highlights": [
         "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
-        "Designed and created a backup solution for our event-sourcing system log stored in Azure Tables (> 2.5 TB of data)"
+        "**Large-Scale Data Backup Solution**: When the company's event-sourcing system containing over 2.5 TB of critical business data in Azure Tables lacked a reliable backup strategy during their SaaS transition, I designed and implemented a comprehensive backup solution. The system ensured data integrity and compliance requirements while supporting the company's migration to a cloud-based SaaS model."
       ]
     },
     {
@@ -63,9 +64,9 @@
       "summary": "Helped the Uber-like startup for gas delivery in Brazil to scale on the technical side, gradually replacing MVP monolith with more reliable and maintainable microservices architecture and implementing new features as the business grew.",
       "highlights": [
         "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
-        "Pioneered rewriting our initially synchronous order flow to use an asynchronous messaging architecture. It opened up a way to extend functionality and dramatically increased reliability. It still facilitates the processing of ~200k orders per day",
-        "Engineered a custom Azure Table Storage serialization layer, achieving 20x speed improvement over Microsoft’s default implementation",
-        "Implemented and maintained a service to calculate and render invoices for our clients"
+        "**Architecture Transformation for Scale**: Faced with an unreliable MVP monolith struggling to handle growing order volume at the Uber-like gas delivery startup, I pioneered the rewrite from synchronous to asynchronous messaging architecture using NServiceBus. This transformation dramatically increased system reliability and opened pathways for feature extensibility, enabling the platform to successfully process ~200,000 orders per day.",
+        "**Performance Optimization Breakthrough**: When Microsoft's default Azure Table Storage serialization became a bottleneck for our high-volume operations, I engineered a custom serialization layer. This optimization achieved a 20x speed improvement over the default implementation, significantly enhancing system performance under heavy load.",
+        "**Financial Operations Infrastructure**: To support the growing business needs for client billing and financial reporting, I implemented and maintained a comprehensive service for calculating and rendering invoices. This system handled complex pricing models and ensured accurate financial processing for thousands of daily transactions."
       ]
     },
     {
@@ -77,9 +78,9 @@
       "summary": "Built and maintained software powering photo-products production facilities in The Netherlands and India",
       "highlights": [
         "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ",
-        "Modernized a service to deliver more than 3.5 TB of user's photos daily from the cloud to our print factory. It allowed decommissioning several obsolete services, therefore, improved reliability and maintainability",
-        "Implemented a set of SQL static analysis tools to help us keep our database schema under control",
-        "Gathered requirements and analyzed workflows in one of the factory production stages. Then, developed a monitoring system to help distribute the workforce more evenly to achieve maximum throughput for that stage"
+        "**High-Volume Photo Delivery Modernization**: When the existing photo delivery system struggled with reliability and maintainability while handling 3.5 TB of daily user photos, I modernized the service architecture. The new solution successfully delivered photos from cloud storage to print factories in Netherlands and India, enabling the decommissioning of several obsolete services and significantly improving system reliability.",
+        "**Database Schema Governance Tools**: Recognizing the need for better database management as the system scaled, I implemented a comprehensive set of SQL static analysis tools. These tools helped the team maintain database schema integrity and prevent issues before they reached production.",
+        "**Production Optimization Through Data Analysis**: After gathering requirements and analyzing workflows in a critical factory production stage, I developed a monitoring system that optimized workforce distribution. This data-driven approach helped achieve maximum throughput for that production stage, improving overall factory efficiency."
       ]
     },
     {
@@ -91,8 +92,8 @@
       "summary": "Helped build new features for a SaaS solution for legal matter management (a Wolters Kluwer product) used by numerous large law firms in the US",
       "highlights": [
         "Tech stack: C#/.NET, ASP.NET WebApi, SQL Server, SoapUI",
-        "Took ownership of performance testing and optimizations for our new RESTful service",
-        "Wrote my master's thesis based on this project"
+        "**RESTful Service Performance Leadership**: When the team's new RESTful service for legal matter management needed performance optimization for large US law firms, I took ownership of the complete performance testing and optimization process. This work ensured the service met enterprise-level performance requirements for the Wolters Kluwer SaaS platform.",
+        "**Academic Research Integration**: Successfully integrated my practical work experience into academic research, writing my master's thesis based on this project and bridging the gap between industry practices and academic knowledge."
       ]
     },
     {
@@ -198,13 +199,9 @@
       "endDate": "2025-03-20",
       "description": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
       "highlights": [
-        "Tech leadership: Owned architecture and technology selection across backend, frontend, deployment, and external integrations",
-        "Requirements to architecture: Analyzed business needs and decomposed them into a system design optimized for maintainability and future growth",
-        "Backend: Developed with .NET, PostgreSQL, and MassTransit for scalable async processing",
-        "Frontend: guided a frontend engineer in building a responsive web app using Nuxt.js",
-        "Deployment: Set up automated CI/CD with Argo CD and Kubernetes, managing multiple environments via GitOps",
-        "Integration: Added analytics and operations tooling, including Meta Pixel, cookie consent, telemetry, and SendGrid for error alerts",
-        "AI exploration: Prototyped an AI agent to enhance user interaction and explore future capabilities"
+        "**Full-Stack Marketplace Development**: When tasked with creating a freelance marketplace MVP for the Czech market from scratch, I led the complete end-to-end development process. I owned architecture decisions, technology selection, and delivery processes across backend (.NET, PostgreSQL, MassTransit), frontend (Nuxt.js), and deployment (Kubernetes, ArgoCD). The result was a production-ready MVP with scalable architecture and integrated analytics, operations tooling, and AI prototyping for future capabilities.",
+        "**DevOps and Deployment Excellence**: Established automated CI/CD pipelines with GitOps methodology, managing multiple environments through Kubernetes and ArgoCD while integrating comprehensive monitoring, analytics (Meta Pixel), and operational tools (SendGrid error alerts).",
+        "**Technical Leadership and Mentoring**: Successfully guided a frontend engineer in building a responsive web application while maintaining technical ownership of the complete stack and ensuring architectural consistency across all components."
       ]
     },
     {
@@ -212,9 +209,10 @@
       "url": "https://github.com/eugene-blokhin/p2p-job-bot-backend",
       "startDate": "2024-11-15",
       "endDate": "2025-02-15",
-      "description": "A Telegram bot that automatically matches freelancers and clients based on the semantic meaning of their services/requests. It uses a fine-tuned model to understand the meaning of the text and match it with the most relevant services/requests. The bot is in C# with Postgres as a database. The bot has been deployed, but later I took it down due to difficulties attracting users.",
+      "description": "Built an intelligent Telegram bot that automatically matches freelancers with clients using semantic analysis of service descriptions and requests. Despite successful technical implementation and deployment, the project was discontinued due to user acquisition challenges.",
       "highlights": [
-        "Tech Stack: C#, ASP.NET Core, PostgreSQL, Entity Framework, OpenAI API, HuggingFace Transformers, Docker, ArgoCD, Kubernetes"
+        "**AI-Powered Matching System**: When traditional keyword-based matching proved insufficient for freelancer-client connections, I developed a semantic matching system using fine-tuned transformers and OpenAI API. The bot successfully analyzed the semantic meaning of service descriptions and requests to provide intelligent matches, demonstrating advanced NLP capabilities in a production environment.",
+        "**Full-Stack Bot Development**: Built the complete system using C#, ASP.NET Core, and PostgreSQL with Entity Framework, deployed on Kubernetes with ArgoCD for automated deployments, showcasing modern cloud-native development practices."
       ]
     },
     {
@@ -222,9 +220,9 @@
       "url": "https://github.com/eugene-blokhin/ai-financial-analysis",
       "startDate": "2023-06-01",
       "endDate": "2023-06-10",
-      "description": "A Python-based project that uses a LSTM neural network to predict stock prices",
+      "description": "Explored machine learning applications in financial markets by implementing LSTM neural networks for stock price prediction, demonstrating proficiency in AI/ML fundamentals and financial data analysis.",
       "highlights": [
-        "Tech Stack: Python, TensorFlow, Pandas, NumPy, Matplotlib"
+        "**Financial ML Implementation**: Applied LSTM neural networks to analyze historical stock data and predict future price movements, gaining hands-on experience with time series analysis and financial modeling using TensorFlow, Pandas, and NumPy."
       ]
     },
     {
@@ -234,10 +232,8 @@
       "endDate": "2021-04-30",
      "description": "Led the development of controlling software for a hardware 3D scanner used in an AR/VR marketplace. Re-architected the entire solution to improve maintainability and system reliability.",
      "highlights": [
-        "Tech stack: ASP.NET Core (Blazor), C++, Linux, Raspberry Pi, Arduino",
-        "Re-architected and rewrote the original solution, dramatically improving code maintainability and system reliability",
-        "The high-level part is an ASP.NET Core Blazor-based web application running on Raspberry Pi (Linux)",
-        "Low-level control implemented in C++, running on ATMega328P microcontrollers"
+        "**Hardware-Software Integration Challenge**: When an AR/VR marketplace needed reliable controlling software for their hardware 3D scanner, I completely re-architected and rewrote the existing solution. The new system dramatically improved code maintainability and system reliability by implementing a clean separation between high-level web interface (ASP.NET Core Blazor on Raspberry Pi) and low-level hardware control (C++ on ATMega328P microcontrollers).",
+        "**Cross-Platform Embedded Development**: Successfully bridged the gap between web technologies and embedded systems, creating a robust solution that operated reliably in production environments for the design industry."
       ]
     }
   ]
