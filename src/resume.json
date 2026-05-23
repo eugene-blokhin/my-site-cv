@@ -8,7 +8,7 @@
         "label": "Senior Back-End Engineer | Health Tech, ex-FHIR Server Developer | Event-Driven Systems",
         "email": "eugene.blokhin@gmail.com",
         "url": "https://eugene-blokhin.com",
-        "summary": "Seasoned Back-End Engineer with over a decade of experience laying the architectural foundations for mission-critical systems. My expertise lies in domain-driven design and event-based patterns, enabling me to build scalable, multi-tenant platforms from the ground up and execute complex legacy migrations without disrupting business operations. I thrive on making long-term architectural decisions that ensure systems are robust, auditable, and ready for future challenges, particularly in regulated domains like health tech.",
+        "summary": "Seasoned Back-End Engineer with over a decade of experience laying the architectural foundations for mission-critical systems. My expertise lies in domain-driven design and event-based patterns, enabling me to build scalable platforms from the ground up and execute complex legacy migrations without disrupting business operations. I thrive on making long-term architectural decisions that ensure systems are robust, auditable, and ready for future challenges, particularly in regulated domains like health tech. I also contribute to the team culture by mentoring and doing my best to make sure we create an atmosphere of mutual trust.",
         "location": {
             "city": "Amsterdam, NL | Remote | Open to relocation"
         },
@@ -30,7 +30,7 @@
             "position": "Senior Software Engineer (freelance)",
             "url": "https://eneco.nl/",
             "startDate": "2026-02-01",
-            "summary": "Contributed as a backend engineer to a greenfield project to replace legacy systems for millions of customers. Architected and delivered robust, future-proof backend solutions using .NET Core and Kafka, building scalable microservices that integrated with diverse internal systems and processed large data volumes.",
+            "summary": "Contributed as a backend engineer to a greenfield project to replace legacy systems for millions of customers. Architected and delivered robust, future-proof backend solutions, building scalable microservices that integrated with diverse internal systems and processed large data volumes.",
             "highlights": [
                 "Tech stack: ASP.NET Core, Kafka, Postgres, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry"
             ],
