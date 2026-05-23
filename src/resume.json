@@ -1,153 +1,252 @@
 {
-  "meta": {
-    "theme": "professional",
-    "language": "en"
-  },
-  "basics": {
-    "name": "Eugene Blokhin",
-    "label": "Senior Back-End Engineer | Health Tech, ex-FHIR Server Developer | Event-Driven Systems",
-    "email": "eugene.blokhin@gmail.com",
-    "url": "https://eugene-blokhin.com",
-    "summary": "Senior Back-End Engineer with 13+ years of experience, specializing in rebuilding mission-critical platforms using .NET, Kafka, and PostgreSQL. Expert in domain-driven design, event-based architecture, and zero-downtime legacy migrations. I am an AI-native engineer, leveraging AI tools to accelerate development and deliver robust, scalable solutions in complex, regulated environments like health tech.",
-    "location": {
-      "city": "Amsterdam, NL | Remote | Open to relocation"
+    "meta": {
+        "theme": "professional",
+        "language": "en"
     },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "eugene-blokhin",
-        "url": "https://github.com/eugene-blokhin"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "eblokhin",
-        "url": "https://www.linkedin.com/in/eblokhin/"
-      }
+    "basics": {
+        "name": "Eugene Blokhin",
+        "label": "Senior Back-End Engineer | Health Tech, ex-FHIR Server Developer | Event-Driven Systems",
+        "email": "eugene.blokhin@gmail.com",
+        "url": "https://eugene-blokhin.com",
+        "summary": "Seasoned Back-End Engineer with over a decade of experience laying the architectural foundations for mission-critical systems. My expertise lies in domain-driven design and event-based patterns, enabling me to build scalable, multi-tenant platforms from the ground up and execute complex legacy migrations without disrupting business operations. I thrive on making long-term architectural decisions that ensure systems are robust, auditable, and ready for future challenges, particularly in regulated domains like health tech.",
+        "location": {
+            "city": "Amsterdam, NL | Remote | Open to relocation"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "eugene-blokhin",
+                "url": "https://github.com/eugene-blokhin"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "eblokhin",
+                "url": "https://www.linkedin.com/in/eblokhin/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "position": "Senior Software Engineer (freelance)",
+            "url": "https://eneco.nl/",
+            "startDate": "2026-02-01",
+            "summary": "Contributed as a backend engineer to a greenfield project to replace legacy systems for millions of customers. Architected and delivered robust, future-proof backend solutions using .NET Core and Kafka, building scalable microservices that integrated with diverse internal systems and processed large data volumes.",
+            "highlights": [
+                "Tech stack: ASP.NET Core, Kafka, Postgres, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry"
+            ],
+            "name": "Eneco"
+        },
+        {
+            "company": "Firely",
+            "position": "Tech Lead (joined as Senior Software Engineer)",
+            "website": "https://fire.ly/",
+            "startDate": "2021-06-01",
+            "endDate": "2025-09-30",
+            "summary": "I am a tech lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
+            "highlights": [
+                "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDB, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
+                "**Database Performance Crisis Resolution**: When key clients experienced severe query performance issues threatening SLA compliance, I spearheaded a 4-month performance initiative. I introduced AST-based query optimizations and redesigned critical database operations, achieving up to 1000x speed improvements for key clients while completing the project with 4x less engineering effort than originally estimated.",
+                "**Zero-Downtime Migration Strategy**: Facing the challenge of updating production databases without service interruptions for healthcare clients, I designed and implemented a comprehensive zero-downtime database migration strategy. This enabled seamless updates across all client environments without any service disruptions, maintaining 100% uptime during critical migrations.",
+                "**Release Documentation Automation**: To address the Consultant Team's difficulty understanding technical changes for client migrations, I implemented AI-driven release documentation automation. This solution automatically generated clear, non-technical summaries of changes, reducing consultant onboarding time for new releases and streamlining client migration processes.",
+                "**Team Process Transformation**: When the team struggled with unpredictable delivery timelines and communication gaps, I led a comprehensive process overhaul focused on predictability and transparency. I established clear workflows, improved cross-team communication protocols, reducing feature delivery time and eliminating surprises for QA, PO, developers, and external stakeholders.",
+                "**Large-Scale ETL Migration Project**: For a major client requiring migration from their proprietary database of hundreds of thousands of patients to Firely Server, I led the architecture design and development of a custom ETL pipeline. I coordinated requirements gathering, designed the data transformation logic, oversaw the implementation, and gave demos to the client, successfully migrating millions of healthcare records while maintaining data integrity and compliance standards.",
+                "**Remote Team Culture Building**: Recognizing knowledge silos and reduced team cohesion in our remote-first environment, I initiated regular knowledge-sharing sessions and technical deep-dives. These sessions improved technical depth across the team, fostered stronger collaboration, and built a more inclusive remote-first engineering culture with 95% attendance rates."
+            ]
+        },
+        {
+            "company": "Effectory",
+            "position": "Senior Software Developer",
+            "website": "http://effectory.com",
+            "startDate": "2019-10-01",
+            "endDate": "2021-05-31",
+            "summary": "Helped the company with its transition to a cloud-based SaaS model by designing and building new features.",
+            "highlights": [
+                "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
+                "**Large-Scale Data Backup Solution**: When the company's event-sourcing system containing over 2.5 TB of critical business data in Azure Tables lacked a reliable backup strategy during their SaaS transition, I designed and implemented a comprehensive backup solution. The system ensured data integrity and compliance requirements while supporting the company's migration to a cloud-based SaaS model."
+            ]
+        },
+        {
+            "company": "Chama Technologies",
+            "position": "Software Developer",
+            "website": "http://chamatheapp.com",
+            "startDate": "2017-05-01",
+            "endDate": "2019-09-15",
+            "summary": "Helped the Uber-like startup for gas delivery in Brazil to scale on the technical side, gradually replacing MVP monolith with more reliable and maintainable microservices architecture and implementing new features as the business grew.",
+            "highlights": [
+                "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
+                "**Architecture Transformation for Scale**: Faced with an unreliable MVP monolith struggling to handle growing order volume at the Uber-like gas delivery startup, I pioneered the rewrite from synchronous to asynchronous messaging architecture using NServiceBus. This transformation dramatically increased system reliability and opened pathways for feature extensibility, enabling the platform to successfully process ~200,000 orders per day.",
+                "**Performance Optimization Breakthrough**: When Microsoft's default Azure Table Storage serialization became a bottleneck for our high-volume operations, I engineered a custom serialization layer. This optimization achieved a 20x speed improvement over the default implementation, significantly enhancing system performance under heavy load.",
+                "**Financial Operations Infrastructure**: To support the growing business needs for client billing and financial reporting, I implemented and maintained a comprehensive service for calculating and rendering invoices. This system handled complex pricing models and ensured accurate financial processing for thousands of daily transactions."
+            ]
+        },
+        {
+            "company": "Albelli",
+            "position": "Software Engineer",
+            "website": "http://albelli.nl",
+            "startDate": "2014-12-01",
+            "endDate": "2017-04-30",
+            "summary": "Built and maintained software powering photo-products production facilities in The Netherlands and India",
+            "highlights": [
+                "Tech stack: C#/.NET, ASP.NET, SQL Server, RabbitMQ",
+                "**High-Volume Photo Delivery Modernization**: When the existing photo delivery system struggled with reliability and maintainability while handling 3.5 TB of daily user photos, I modernized the service architecture. The new solution successfully delivered photos from cloud storage to print factories in Netherlands and India, enabling the decommissioning of several obsolete services and significantly improving system reliability.",
+                "**Database Schema Governance Tools**: Recognizing the need for better database management as the system scaled, I implemented a comprehensive set of SQL static analysis tools. These tools helped the team maintain database schema integrity and prevent issues before they reached production.",
+                "**Production Optimization Through Data Analysis**: After gathering requirements and analyzing workflows in a critical factory production stage, I developed a monitoring system that optimized workforce distribution. This data-driven approach helped achieve maximum throughput for that production stage, improving overall factory efficiency."
+            ]
+        },
+        {
+            "company": "VIAcode",
+            "position": "Software Developer",
+            "website": "http://viacode.com",
+            "startDate": "2012-11-01",
+            "endDate": "2014-11-13",
+            "summary": "Helped build new features for a SaaS solution for legal matter management (a Wolters Kluwer product) used by numerous large law firms in the US",
+            "highlights": [
+                "Tech stack: C#/.NET, ASP.NET WebApi, SQL Server, SoapUI",
+                "**RESTful Service Performance Leadership**: When the team's new RESTful service for legal matter management needed performance optimization for large US law firms, I took ownership of the complete performance testing and optimization process. This work ensured the service met enterprise-level performance requirements for the Wolters Kluwer SaaS platform.",
+                "**Academic Research Integration**: Successfully integrated my practical work experience into academic research, writing my master's thesis based on this project and bridging the gap between industry practices and academic knowledge."
+            ]
+        },
+        {
+            "company": "Studio Mobile",
+            "position": "Junior Software Developer",
+            "website": "http://studiomobile.ru",
+            "startDate": "2011-09-01",
+            "endDate": "2012-10-31",
+            "summary": "Helped develop and maintain a game using Unity3D",
+            "highlights": [
+                "Tech stack: C#/.NET, Unity3D, DirectDraw"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University Of Information Technologies, Mechanics and Optics (ITMO) - Russia, St. Petersburg",
+            "area": "Software Development / Information Systems",
+            "studyType": "Master",
+            "startDate": "2009-09-01",
+            "endDate": "2014-06-01"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Machine Learning Specialization",
+            "date": "2023-02-20",
+            "issuer": "DeepLearning.AI, Stanford University",
+            "url": "https://www.coursera.org/account/accomplishments/specialization/QL5MWP2B4PNX"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming Languages / Frameworks",
+            "keywords": [
+                "C# (ASP.NET Core, EF)",
+                "Python",
+                "JavaScript / TypeScript / Node.js (+ React and Vue)",
+                "C / C++",
+                "F#"
+            ]
+        },
+        {
+            "name": "Architecture",
+            "keywords": [
+                "Data: SQL Server, PostgreSQL, MongoDB, Azure Storage, Neo4j",
+                "Messaging: RabbitMQ, Kafka",
+                "Cache: Redis",
+                "Standards: OAuth 2.0, OpenID Connect"
+            ]
+        },
+        {
+            "name": "DevOps / CI/CD / Cloud",
+            "keywords": [
+                "Azure (Service Bus, Functions, App Services, Storage, ARM/bicep templates)",
+                "Docker",
+                "Kubernetes",
+                "Azure DevOps",
+                "GitHub Actions",
+                "GitOps (ArgoCD)",
+                "OpenTelemetry"
+            ]
+        },
+        {
+            "name": "AI / Machine Learning",
+            "keywords": [
+                "ML Fundamentals (Gradient Descent, Backpropagation, Transformers)",
+                "TensorFlow",
+                "CrewAI",
+                "LangFlow",
+                "Prompt Engineering",
+                "Vector Databases",
+                "MCP Server Deployment"
+            ]
+        },
+        {
+            "name": "Soft Skills",
+            "keywords": [
+                "Tech Leadership",
+                "Conflict Resolution",
+                "Tech Mentoring",
+                "Cross-team Collaboration",
+                "Agile Methodologies (Scrum, Kanban)"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Dutch",
+            "fluency": "Beginner"
+        },
+        {
+            "language": "Russian",
+            "fluency": "Native"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Freelance marketplace MVP for Czech market",
+            "startDate": "2024-02-01",
+            "endDate": "2025-03-20",
+            "description": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
+            "highlights": [
+                "**Full-Stack Marketplace Development**: When tasked with creating a freelance marketplace MVP for the Czech market from scratch, I led the complete end-to-end development process. I owned architecture decisions, technology selection, and delivery processes across backend (.NET, PostgreSQL, MassTransit), frontend (Nuxt.js), and deployment (Kubernetes, ArgoCD). The result was a production-ready MVP with scalable architecture and integrated analytics, operations tooling, and AI prototyping for future capabilities.",
+                "**DevOps and Deployment Excellence**: Established automated CI/CD pipelines with GitOps methodology, managing multiple environments through Kubernetes and ArgoCD while integrating comprehensive monitoring, analytics (Meta Pixel), and operational tools (SendGrid error alerts).",
+                "**Technical Leadership and Mentoring**: Successfully guided a frontend engineer in building a responsive web application while maintaining technical ownership of the complete stack and ensuring architectural consistency across all components."
+            ]
+        },
+        {
+            "name": "AI-Powered Telegram bot for matching freelancers and clients",
+            "url": "https://github.com/eugene-blokhin/p2p-job-bot-backend",
+            "startDate": "2024-11-15",
+            "endDate": "2025-02-15",
+            "description": "Built an intelligent Telegram bot that automatically matches freelancers with clients using semantic analysis of service descriptions and requests. Despite successful technical implementation and deployment, the project was discontinued due to user acquisition challenges.",
+            "highlights": [
+                "**AI-Powered Matching System**: When traditional keyword-based matching proved insufficient for freelancer-client connections, I developed a semantic matching system using fine-tuned transformers and OpenAI API. The bot successfully analyzed the semantic meaning of service descriptions and requests to provide intelligent matches, demonstrating advanced NLP capabilities in a production environment.",
+                "**Full-Stack Bot Development**: Built the complete system using C#, ASP.NET Core, and PostgreSQL with Entity Framework, deployed on Kubernetes with ArgoCD for automated deployments, showcasing modern cloud-native development practices."
+            ]
+        },
+        {
+            "name": "LSTM-based stock price prediction",
+            "url": "https://github.com/eugene-blokhin/ai-financial-analysis",
+            "startDate": "2023-06-01",
+            "endDate": "2023-06-10",
+            "description": "Explored machine learning applications in financial markets by implementing LSTM neural networks for stock price prediction, demonstrating proficiency in AI/ML fundamentals and financial data analysis.",
+            "highlights": [
+                "**Financial ML Implementation**: Applied LSTM neural networks to analyze historical stock data and predict future price movements, gaining hands-on experience with time series analysis and financial modeling using TensorFlow, Pandas, and NumPy."
+            ]
+        },
+        {
+            "name": "Implementing a 3D scanner control software (freelance)",
+            "url": "https://designhubz.com",
+            "startDate": "2020-06-01",
+            "endDate": "2021-04-30",
+            "description": "Led the development of controlling software for a hardware 3D scanner used in an AR/VR marketplace. Re-architected the entire solution to improve maintainability and system reliability.",
+            "highlights": [
+                "**Hardware-Software Integration Challenge**: When an AR/VR marketplace needed reliable controlling software for their hardware 3D scanner, I completely re-architected and rewrote the existing solution. The new system dramatically improved code maintainability and system reliability by implementing a clean separation between high-level web interface (ASP.NET Core Blazor on Raspberry Pi) and low-level hardware control (C++ on ATMega328P microcontrollers).",
+                "**Cross-Platform Embedded Development**: Successfully bridged the gap between web technologies and embedded systems, creating a robust solution that operated reliably in production environments for the design industry."
+            ]
+        }
     ]
-  },
-  "work": [
-    {
-      "position": "Senior Software Engineer (freelance)",
-      "url": "https://eneco.nl/",
-      "startDate": "2026-02-01",
-      "summary": "Contributed as a backend engineer to a greenfield project to replace legacy systems for millions of customers. Architected and delivered robust, future-proof backend solutions using .NET Core and Kafka, building scalable microservices that integrated with diverse internal systems and processed large data volumes.",
-      "name": "Eneco"
-    },
-    {
-      "company": "Firely",
-      "position": "Tech Lead (joined as Senior Software Engineer)",
-      "url": "https://fire.ly/",
-      "startDate": "2021-06-01",
-      "endDate": "2025-09-30",
-      "summary": "Led a development team working on a core FHIR server used by healthcare organizations worldwide. My role involved planning, designing, and implementing new features with a focus on database performance, scalability, and compliance in a regulated health-tech environment.",
-      "highlights": [
-        "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDB, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
-        "**Postgres at Scale & Performance Tuning**: Spearheaded a 4-month performance initiative to resolve severe query performance issues, introducing AST-based query optimizations and redesigning critical database operations. Achieved up to 1000x speed improvements for key clients, demonstrating deep expertise in database performance tuning.",
-        "**Proven Legacy Migration Experience**: Designed and implemented a comprehensive zero-downtime database migration strategy, enabling seamless updates across all client environments without any service disruptions. This maintained 100% uptime during critical migrations of production systems.",
-        "**Domain Modelling & ETL for Healthcare**: Led the architecture and development of a custom ETL pipeline to migrate a major client's proprietary database (hundreds of thousands of patients) to Firely Server. This involved complex domain modelling and data transformation to successfully migrate millions of healthcare records while ensuring data integrity and compliance.",
-        "**AI-Powered Feature Implementation**: Implemented AI-driven release documentation automation that generated clear, non-technical summaries of technical changes, reducing onboarding time for new releases and streamlining client migration processes."
-      ],
-      "name": "Firely"
-    },
-    {
-      "name": "Effectory",
-      "position": "Senior Software Developer",
-      "url": "http://effectory.com",
-      "startDate": "2019-10-01",
-      "endDate": "2021-05-31",
-      "summary": "Designed and built new features to support the company's transition to a cloud-based SaaS model, focusing on data integrity and scalability in an event-sourcing system.",
-      "highlights": [
-        "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
-        "**Large-Scale Data Management**: Designed and implemented a comprehensive backup solution for an event-sourcing system containing over 2.5 TB of critical business data in Azure Tables, ensuring data integrity and compliance during the SaaS transition."
-      ]
-    },
-    {
-      "name": "Chama Technologies",
-      "position": "Software Developer",
-      "url": "http://chamatheapp.com",
-      "startDate": "2017-05-01",
-      "endDate": "2019-09-15",
-      "summary": "Pioneered the technical scaling of an Uber-like startup, replacing an MVP monolith with a reliable and maintainable event-driven microservices architecture to handle high-volume transactions.",
-      "highlights": [
-        "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
-        "**Event-Driven Architecture Transformation**: Led the rewrite of a synchronous monolith to an asynchronous, event-driven architecture using NServiceBus. This dramatically increased system reliability and scalability, enabling the platform to process ~200,000 orders per day.",
-        "**Performance Optimization at Scale**: Engineered a custom serialization layer for Azure Table Storage that achieved a 20x speed improvement over the default implementation, significantly enhancing system performance under heavy load."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University Of Information Technologies, Mechanics and Optics (ITMO) - Russia, St. Petersburg",
-      "area": "Software Development / Information Systems",
-      "studyType": "Master",
-      "startDate": "2009-09-01",
-      "endDate": "2014-06-01"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning Specialization",
-      "date": "2023-02-20",
-      "issuer": "DeepLearning.AI, Stanford University",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/QL5MWP2B4PNX"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Core Expertise",
-      "keywords": [
-        "C# / .NET (Senior-level)",
-        "Domain-Driven Design (DDD)",
-        "Event-Driven Architecture",
-        "Legacy Migration",
-        "Multi-Tenant Systems",
-        "PostgreSQL (at scale)",
-        "Kafka"
-      ]
-    },
-    {
-      "name": "Health Tech & Standards",
-      "keywords": [
-        "FHIR",
-        "Regulated Industry Experience",
-        "Data Compliance (GDPR)"
-      ]
-    },
-    {
-      "name": "AI / Machine Learning",
-      "keywords": [
-        "LLM-powered features",
-        "AI-Native Workflows",
-        "ML Fundamentals",
-        "TensorFlow",
-        "CrewAI",
-        "LangFlow",
-        "Prompt Engineering"
-      ]
-    },
-    {
-      "name": "DevOps / Cloud",
-      "keywords": [
-        "Azure (Service Bus, Functions, App Services, Storage)",
-        "CI/CD (Azure DevOps, GitHub Actions)",
-        "Docker",
-        "Kubernetes",
-        "OpenTelemetry"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Dutch",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "Russian",
-      "fluency": "Native"
-    }
-  ]
 }
