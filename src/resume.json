@@ -5,10 +5,10 @@
     },
     "basics": {
         "name": "Eugene Blokhin",
-        "label": "Senior Back-End Engineer | Health Tech, ex-FHIR Server Developer | Event-Driven Systems",
+        "label": "Senior Backend Engineer | Health Tech • Ex-FHIR Server Developer • Event-Driven Systems",
         "email": "eugene.blokhin@gmail.com",
         "url": "https://eugene-blokhin.com",
-        "summary": "Seasoned Back-End Engineer with over a decade of experience laying the architectural foundations for mission-critical systems. My expertise lies in domain-driven design and event-based patterns, enabling me to build scalable platforms from the ground up and execute complex legacy migrations without disrupting business operations. I thrive on making long-term architectural decisions that ensure systems are robust, auditable, and ready for future challenges. I also contribute to the team culture by mentoring and doing my best to make sure we create an atmosphere of mutual trust.",
+        "summary": "Seasoned backend engineer with more than a decade of experience building the architectural foundations of mission-critical systems. My expertise lies in domain-driven design and event-driven patterns, allowing me to design scalable platforms from the ground up and guide complex legacy migrations without disrupting business operations. I enjoy making long-term architectural decisions that keep systems robust, auditable, and ready for future challenges. I also contribute to team culture by mentoring and helping create an environment built on trust and collaboration.",
         "location": {
             "city": "Amsterdam, NL | Hybrid | Remote"
         },
@@ -37,9 +37,9 @@
             "url": "https://eneco.nl/",
             "startDate": "2026-02-01",
             "endDate": "2026-07-31",
-            "summary": "Contributed as a backend engineer to a greenfield project to replace legacy system for billing millions of customers.",
+            "summary": "Contributed as a backend engineer to a greenfield project replacing a legacy billing system for millions of customers.",
             "highlights": [
-                "Tech stack: ASP.NET Core, Kafka, Postgres, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry"
+                "Tech stack: ASP.NET Core, Kafka, Postgres, Docker, Azure DevOps, Kubernetes, OpenTelemetry"
             ],
             "name": "Eneco"
         },
@@ -66,10 +66,10 @@
             "website": "http://effectory.com",
             "startDate": "2019-10-01",
             "endDate": "2021-05-31",
-            "summary": "Helped the company with its transition to a cloud-based SaaS model by designing and building new features.",
+            "summary": "Helped the company transition to a cloud-based SaaS model by designing and building new features.",
             "highlights": [
                 "Tech stack: C#/.NET, Azure Storage/Functions/App Services/Service Bus/ARM templates",
-                "**Large-Scale Data Backup Solution**: When the company's event-sourcing system containing over 2.5 TB of critical business data in Azure Tables lacked a reliable backup strategy during their SaaS transition, I designed and implemented a comprehensive backup solution. The system ensured data integrity and compliance requirements while supporting the company's migration to a cloud-based SaaS model."
+                "**Large-Scale Data Backup Solution**: When the company's event-sourcing system, containing over 2.5 TB of critical business data in Azure Tables, lacked a reliable backup strategy during its SaaS transition, I designed and implemented a comprehensive solution. The system ensured data integrity and compliance while supporting the company's migration to a cloud-based SaaS model."
             ]
         },
         {
@@ -78,12 +78,12 @@
             "website": "http://chamatheapp.com",
             "startDate": "2017-05-01",
             "endDate": "2019-09-15",
-            "summary": "Helped the Uber-like startup for gas delivery in Brazil to scale on the technical side, gradually replacing MVP monolith with more reliable and maintainable microservices architecture and implementing new features as the business grew.",
+            "summary": "Helped an Uber-like gas delivery startup scale technically, gradually replacing its MVP monolith with a more reliable and maintainable microservices architecture while implementing new features as the business grew.",
             "highlights": [
                 "Tech stack: C#/.NET, NServiceBus, Azure Storage/App Services/ServiceFabric/Service Bus...",
-                "**Architecture Transformation for Scale**: Faced with an unreliable MVP monolith struggling to handle growing order volume at the Uber-like gas delivery startup, I pioneered the rewrite from synchronous to asynchronous messaging architecture using NServiceBus. This transformation dramatically increased system reliability and opened pathways for feature extensibility, enabling the platform to successfully process ~200,000 orders per day.",
-                "**Performance Optimization Breakthrough**: When Microsoft's default Azure Table Storage serialization became a bottleneck for our high-volume operations, I engineered a custom serialization layer. This optimization achieved a 20x speed improvement over the default implementation, significantly enhancing system performance under heavy load.",
-                "**Financial Operations Infrastructure**: To support the growing business needs for client billing and financial reporting, I implemented and maintained a comprehensive service for calculating and rendering invoices. This system handled complex pricing models and ensured accurate financial processing for thousands of daily transactions."
+                "**Architecture Transformation for Scale**: Faced with an unreliable MVP monolith struggling to handle a growing order volume at the Uber-like gas delivery startup, I pioneered the rewrite from synchronous to asynchronous messaging architecture using NServiceBus. This transformation dramatically increased system reliability and opened the way for feature extensibility, enabling the platform to process roughly 200,000 orders per day.",
+                "**Performance Optimization Breakthrough**: When Microsoft's default Azure Table Storage serialization became a bottleneck for our high-volume operations, I engineered a custom serialization layer. This optimization improved performance by 20x over the default implementation and significantly reduced the strain under heavy load.",
+                "**Financial Operations Infrastructure**: To support the company's growing needs for client billing and financial reporting, I implemented and maintained a comprehensive service for calculating and rendering invoices. This system handled complex pricing models and ensured accurate financial processing for thousands of daily transactions."
             ]
         },
         {
@@ -213,14 +213,14 @@
     ],
     "projects": [
         {
-            "name": "Freelance marketplace MVP for Czech market",
+            "name": "Freelance marketplace MVP for the Czech market",
             "startDate": "2024-02-01",
             "endDate": "2025-03-20",
-            "description": "Led the end-to-end development of a freelance marketplace for the Czech market. Owned the full technical stack and delivery process, transforming business requirements into a production-ready MVP with a clean, scalable architecture.",
+            "description": "Led the end-to-end development of a freelance marketplace for the Czech market. I owned the full technical stack and delivery process, translating business requirements into a production-ready MVP with a clean, scalable architecture.",
             "highlights": [
-                "**Full-Stack Marketplace Development**: When tasked with creating a freelance marketplace MVP for the Czech market from scratch, I led the complete end-to-end development process. I owned architecture decisions, technology selection, and delivery processes across backend (.NET, PostgreSQL, MassTransit), frontend (Nuxt.js), and deployment (Kubernetes, ArgoCD). The result was a production-ready MVP with scalable architecture and integrated analytics, operations tooling, and AI prototyping for future capabilities.",
-                "**DevOps and Deployment Excellence**: Established automated CI/CD pipelines with GitOps methodology, managing multiple environments through Kubernetes and ArgoCD while integrating comprehensive monitoring, analytics (Meta Pixel), and operational tools (SendGrid error alerts).",
-                "**Technical Leadership and Mentoring**: Successfully guided a frontend engineer in building a responsive web application while maintaining technical ownership of the complete stack and ensuring architectural consistency across all components."
+                "**Full-Stack Marketplace Development**: When tasked with creating a freelance marketplace MVP for the Czech market from scratch, I led the complete end-to-end development process. I owned architecture decisions, technology selection, and delivery across the backend (.NET, PostgreSQL, MassTransit), frontend (Nuxt.js), and deployment setup (Kubernetes, ArgoCD). The result was a production-ready MVP with scalable architecture, integrated analytics, operations tooling, and AI prototyping for future capabilities.",
+                "**DevOps and Deployment Excellence**: Established automated CI/CD pipelines using GitOps, managed multiple environments through Kubernetes and ArgoCD, and integrated monitoring, analytics (Meta Pixel), and operational tools (SendGrid error alerts).",
+                "**Technical Leadership and Mentoring**: Successfully guided a frontend engineer in building a responsive web application while maintaining technical ownership of the full stack and ensuring architectural consistency across all components."
             ]
         },
         {
