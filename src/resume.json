@@ -37,7 +37,7 @@
             "url": "https://eneco.nl/",
             "startDate": "2026-02-01",
             "endDate": "2026-07-31",
-            "summary": "Contributed as a backend engineer to a greenfield project to replace legacy systems for millions of customers. Architected and delivered robust, future-proof backend solutions, building scalable microservices that integrated with diverse internal systems and processed large data volumes.",
+            "summary": "Contributed as a backend engineer to a greenfield project to replace legacy system for billing millions of customers.",
             "highlights": [
                 "Tech stack: ASP.NET Core, Kafka, Postgres, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry"
             ],
