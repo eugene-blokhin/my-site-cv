@@ -49,7 +49,7 @@
             "website": "https://fire.ly/",
             "startDate": "2021-06-01",
             "endDate": "2025-09-30",
-            "summary": "I am a tech lead and senior software engineer at Firely where I work on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involves leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
+            "summary": "A tech lead and senior software engineer at Firely where I worked on the Firely Server, a FHIR server that is used by healthcare organizations worldwide. My role involved leading a team of developers, planning, designing and implementing new features, and ensuring the quality and performance of our software.",
             "highlights": [
                 "Tech stack: FHIR, ASP.NET Core, SQL Server, MongoDB, Docker, Azure Dev Ops, Kubernetes, OpenTelemetry, OpenID Connect",
                 "**Database Performance Crisis Resolution**: When key clients experienced severe query performance issues threatening SLA compliance, I spearheaded a 4-month performance initiative. I introduced AST-based query optimizations and redesigned critical database operations, achieving up to 1000x speed improvements for key clients while completing the project with 4x less engineering effort than originally estimated.",
